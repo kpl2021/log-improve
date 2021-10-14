@@ -181,14 +181,14 @@
                 //Append any subtext to the main text.
                 text+=subtext;
 
-                if ($(this).parent().is('optgroup') && $(this).data('divider') != true) {
-                    if ($(this).index() == 0) {
+                if ($(this).parent().is('optgroup') && $(this).data('divider') !== true) {
+                    if ($(this).index() === 0) {
                         //Get the opt group label
                         var label = $(this).parent().attr('label');
                         var labelSubtext = $(this).parent().data('subtext') !== undefined ? '<small class="muted">'+$(this).parent().data('subtext')+'</small>' : '';
                         label += labelSubtext;
 
-                        if ($(this)[0].index != 0) {
+                        if ($(this)[0].index !== 0) {
                             _liA.push(
                                 '<div class="divider"></div>'+
                                 '<dt>'+label+'</dt>'+ 
@@ -202,9 +202,9 @@
                     } else {
                          _liA.push( _this.createA(text, "opt " + optionClass )  );
                     }
-                } else if ($(this).data('divider') == true) {
+                } else if ($(this).data('divider') === true) {
                     _liA.push('<div class="divider"></div>');
-                } else if ($(this).data('hidden') == true) {
+                } else if ($(this).data('hidden') === true) {
 	                _liA.push('');
                 } else {
                     _liA.push( _this.createA(text, optionClass ) );
@@ -219,7 +219,7 @@
             }
 
             //If we dont have a selected item, and we dont have a title, select the first element so something is set in the button
-            if(this.$element.find('option:selected').length==0 && !_this.options.title) {
+            if(this.$element.find('option:selected').length=== 0 && !_this.options.title) {
                 this.$element.find('option').eq(0).prop('selected', true).attr('selected', 'selected');
             }
 
@@ -266,7 +266,7 @@
             //If this is multi select, and the selectText type is count, the show 1 of 2 selected etc..                    
             if(_this.multiple && _this.options.selectedTextFormat.indexOf('count') > -1) {
                 var max = _this.options.selectedTextFormat.split(">");
-                if( (max.length>1 && selectedItems.length > max[1]) || (max.length==1 && selectedItems.length>=2)) {
+                if( (max.length > 1 && selectedItems.length > max[1]) || (max.length === 1 && selectedItems.length >= 2)) {
                     title = selectedItems.length +' of ' + this.$element.find('option').length + ' selected';
                 }
              }  
