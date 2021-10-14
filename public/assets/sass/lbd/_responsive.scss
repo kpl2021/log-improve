@@ -5,10 +5,12 @@
         padding-left: 5px;
         padding-right: 5px;
     }
+
     .navbar-nav > li > .dropdown-menu, .dropdown .dropdown-menu{
         @include transform-scale(0);
         @include transition($slow-transition-time, $transition-bezier);
     }
+    
     .navbar-nav > li.open > .dropdown-menu, .dropdown.open .dropdown-menu{
         @include transform-scale(1);
         @include transform-origin($dropdown-coordinates);
@@ -35,6 +37,7 @@
         left: 12px;
         top: -11px;
     }
+
     .navbar-nav > li > .dropdown-menu:after {
         border-bottom: 11px solid #FFFFFF;
         border-left: 11px solid rgba(0, 0, 0, 0);

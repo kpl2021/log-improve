@@ -18,6 +18,7 @@
             width: 100%;
         }
     }
+
     .filter{
         position: absolute;
         z-index: 2;
@@ -34,9 +35,11 @@
             @include vertical-align();
         }
     }
+    
     &:hover .filter{
         @include opacity(1);
     }
+
     .btn-hover{
         @include opacity(0);
     }

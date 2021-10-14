@@ -13,7 +13,8 @@
     .open &{
         @include opacity(1);
         visibility: visible;
-    }    
+    }
+
     .select &{
        border-radius: $border-radius-bottom; 
        @include box-shadow(none);
@@ -22,6 +23,7 @@
        @include transition($fast-transition-time, $transition-linear);
        margin-top: -20px;
     }
+
     .select.open &{
         margin-top: -1px;
     }
@@ -69,18 +71,22 @@
     &.dropdown-blue > li > a:focus{
         background-color: $light-blue;
     }
+
     &.dropdown-azure > li > a:hover,
     &.dropdown-azure > li > a:focus{
         background-color: $light-azure;
     }
+
     &.ct-green > li > a:hover,
     &.ct-green > li > a:focus{
         background-color: $light-green;
     }
+
     &.dropdown-orange > li > a:hover,
     &.dropdown-orange > li > a:focus{
         background-color: $light-orange;
     }
+
     &.dropdown-red > li > a:hover,
     &.dropdown-red > li > a:focus{
         background-color: $light-red;
@@ -93,6 +99,7 @@
         padding-left: 0px;
         line-height: 28px;
     }
+
     i{
         text-align: center;
         line-height: 28px;
@@ -113,6 +120,7 @@
 .btn-group.select{
     overflow: hidden;
 }
+
 .btn-group.select.open{
     overflow: visible;
 }

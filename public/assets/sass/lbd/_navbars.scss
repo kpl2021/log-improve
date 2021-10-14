@@ -23,19 +23,23 @@
         padding: $navbar-padding-brand;
         font-size: $font-size-large-navbar;
     }
+
     .navbar-nav{
          > li > a {
              padding: $navbar-padding-a;
              margin: $navbar-margin-a;
              position: relative;
          }
+         
          > li > a.btn{
              margin: $navbar-margin-a-btn;
              padding: $padding-base-vertical $padding-base-horizontal;
          }
+         
          > li > a.btn-round{
              margin: $navbar-margin-a-btn-round;
          }
+
          > li > a [class^="fa"]{
              font-size: $font-size-large + 1;
              position: relative;

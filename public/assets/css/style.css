@@ -112,6 +112,7 @@ h1, h2, h3, h4, h5, h6 {
   #header {
     background: #fff;
   }
+
   #header .logo h1 {
     font-size: 28px;
   }
@@ -230,9 +231,11 @@ h1, h2, h3, h4, h5, h6 {
   .nav-menu .drop-down .drop-down ul {
     left: -90%;
   }
+
   .nav-menu .drop-down .drop-down:hover > ul {
     left: -100%;
   }
+
   .nav-menu .drop-down .drop-down > a:after {
     content: "\ea9d";
   }
@@ -419,13 +422,16 @@ h1, h2, h3, h4, h5, h6 {
   #hero {
     height: 100vh;
   }
+  
   #hero .animated {
     -webkit-animation: none;
     animation: none;
   }
+
   #hero .hero-img {
     text-align: center;
   }
+
   #hero .hero-img img {
     width: 100%;
   }
@@ -435,10 +441,12 @@ h1, h2, h3, h4, h5, h6 {
   #hero {
     margin-top: 20px;
   }
+
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
   }
+
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
@@ -459,6 +467,7 @@ h1, h2, h3, h4, h5, h6 {
   0% {
     transform: translateY(10px);
   }
+
   100% {
     transform: translateY(-10px);
   }

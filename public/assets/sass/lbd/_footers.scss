@@ -12,18 +12,22 @@
             color: $dark-gray;
             display: block;
             margin-bottom: 3px;
+            
             &:hover,
             &:focus{
                 color: $default-states-color;
             }
         }
     }
+
     .social-area{
         padding: 15px 0;
+
         h5{
             padding-bottom: 15px;
         }
     }
+
     .social-area > a:not(.btn){
        color: $dark-gray;
        display: inline-block;
@@ -38,6 +42,7 @@
            color: $default-states-color;
        }
     }
+
     .copyright{
         color: $default-states-color;
         padding: 10px 15px;
@@ -45,9 +50,11 @@
         line-height: 20px;
         font-size: $font-size-base;
     }
+
     hr{
         border-color: $medium-gray;
     }
+
     .title{
         color: $default-states-color;
     }
@@ -64,6 +71,7 @@
             margin-left: 20px;
             float: left;
         }
+
         a{
             padding: 10px 0px;
             margin: 10px 10px 10px 0px;

@@ -16,9 +16,11 @@
 .all-icons [class*="pe-"]{
     font-size: 40px;
 }
+
 .all-icons input{
     border: 0;
 }
+
 .all-icons .font-icon-detail{
     text-align: center;
     padding: 45px 0px 30px;
@@ -26,6 +28,7 @@
     border-radius: 6px;
     margin: 15px 0;
 }
+
 .all-icons .font-icon-detail input{
     margin: 25px auto 0;
     width: 100%;
@@ -44,11 +47,13 @@
 .places-buttons .btn{
     margin-bottom: 30px
 }
+
 .sidebar .nav > li.active-pro{
     position: absolute;
     width: 100%;
     bottom: 10px;
 }
+
 .sidebar .nav > li.active-pro a{
     background: rgba(255, 255, 255, 0.14);
     opacity: 1;
