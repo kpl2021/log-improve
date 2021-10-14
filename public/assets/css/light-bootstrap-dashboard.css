@@ -101,7 +101,8 @@ h5, .h5 {
     margin-bottom: 15px;
 }
 
-h6, .h6 {
+h6,
+.h6 {
     font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
