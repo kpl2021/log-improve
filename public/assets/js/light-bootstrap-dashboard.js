@@ -47,7 +47,7 @@ $('body').on('touchstart.dropdown', '.dropdown-menu', function (e) { e.stopPropa
 $(document).on('click', '.navbar-toggle', function(){
     $toggle = $(this);
 
-    if(lbd.misc.navbar_menu_visible == 1) {
+    if(lbd.misc.navbar_menu_visible === 1) {
         $('html').removeClass('nav-open');
        lbd.misc.navbar_menu_visible = 0;
         $('#bodyClick').remove();
