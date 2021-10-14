@@ -716,6 +716,7 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.focus {
 .datepicker .datepicker-switch {
   width: 145px;
 }
+
 .datepicker .datepicker-switch,
 .datepicker .prev,
 .datepicker .next,
