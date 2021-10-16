@@ -3335,10 +3335,6 @@
   content: "\f104";
 }
 
-.zmdi-archive::before {
-  content: "\f105";
-}
-
 .zmdi-assignment-account::before {
   content: "\f106";
 }
@@ -3355,10 +3351,6 @@
   content: "\f109";
 }
 
-.zmdi-assignment-return::before {
-  content: "\f10a";
-}
-
 .zmdi-assignment-returned::before {
   content: "\f10b";
 }
@@ -3373,14 +3365,6 @@
 
 .zmdi-attachment::before {
   content: "\f10e";
-}
-
-.zmdi-audio::before {
-  content: "\f10f";
-}
-
-.zmdi-badge-check::before {
-  content: "\f110";
 }
 
 .zmdi-balance-wallet::before {
@@ -3407,14 +3391,6 @@
   content: "\f116";
 }
 
-.zmdi-bike::before {
-  content: "\f117";
-}
-
-.zmdi-block-alt::before {
-  content: "\f118";
-}
-
 .zmdi-block::before {
   content: "\f119";
 }
@@ -3425,10 +3401,6 @@
 
 .zmdi-book-image::before {
   content: "\f11b";
-}
-
-.zmdi-book::before {
-  content: "\f11c";
 }
 
 .zmdi-bookmark-outline::before {
@@ -3447,10 +3419,6 @@
   content: "\f120";
 }
 
-.zmdi-bus::before {
-  content: "\f121";
-}
-
 .zmdi-cake::before {
   content: "\f122";
 }
@@ -3467,14 +3435,6 @@
   content: "\f125";
 }
 
-.zmdi-card-giftcard::before {
-  content: "\f126";
-}
-
-.zmdi-card-membership::before {
-  content: "\f127";
-}
-
 .zmdi-card-travel::before {
   content: "\f128";
 }
@@ -3485,14 +3445,6 @@
 
 .zmdi-case-check::before {
   content: "\f12a";
-}
-
-.zmdi-case-download::before {
-  content: "\f12b";
-}
-
-.zmdi-case-play::before {
-  content: "\f12c";
 }
 
 .zmdi-case::before {
@@ -3511,14 +3463,6 @@
   content: "\f130";
 }
 
-.zmdi-chart::before {
-  content: "\f131";
-}
-
-.zmdi-city-alt::before {
-  content: "\f132";
-}
-
 .zmdi-city::before {
   content: "\f133";
 }
@@ -3531,28 +3475,8 @@
   content: "\f135";
 }
 
-.zmdi-close::before {
-  content: "\f136";
-}
-
-.zmdi-cocktail::before {
-  content: "\f137";
-}
-
-.zmdi-code-setting::before {
-  content: "\f138";
-}
-
 .zmdi-code-smartphone::before {
   content: "\f139";
-}
-
-.zmdi-code::before {
-  content: "\f13a";
-}
-
-.zmdi-coffee::before {
-  content: "\f13b";
 }
 
 .zmdi-collection-bookmark::before {
@@ -3561,10 +3485,6 @@
 
 .zmdi-collection-case-play::before {
   content: "\f13d";
-}
-
-.zmdi-collection-folder-image::before {
-  content: "\f13e";
 }
 
 .zmdi-collection-image-o::before {
@@ -3591,10 +3511,6 @@
   content: "\f144";
 }
 
-.zmdi-collection-item-5::before {
-  content: "\f145";
-}
-
 .zmdi-collection-item-6::before {
   content: "\f146";
 }
@@ -3613,10 +3529,6 @@
 
 .zmdi-collection-item-9::before {
   content: "\f14a";
-}
-
-.zmdi-collection-item::before {
-  content: "\f14b";
 }
 
 .zmdi-collection-music::before {
@@ -3651,10 +3563,6 @@
   content: "\f153";
 }
 
-.zmdi-delete::before {
-  content: "\f154";
-}
-
 .zmdi-dialpad::before {
   content: "\f155";
 }
@@ -3675,10 +3583,6 @@
   content: "\f159";
 }
 
-.zmdi-email::before {
-  content: "\f15a";
-}
-
 .zmdi-eye-off::before {
   content: "\f15b";
 }
@@ -3691,10 +3595,6 @@
   content: "\f15d";
 }
 
-.zmdi-favorite-outline::before {
-  content: "\f15e";
-}
-
 .zmdi-favorite::before {
   content: "\f15f";
 }
@@ -3703,32 +3603,12 @@
   content: "\f160";
 }
 
-.zmdi-fire::before {
-  content: "\f161";
-}
-
 .zmdi-flag::before {
   content: "\f162";
 }
 
 .zmdi-flare::before {
   content: "\f163";
-}
-
-.zmdi-flash-auto::before {
-  content: "\f164";
-}
-
-.zmdi-flash-off::before {
-  content: "\f165";
-}
-
-.zmdi-flash::before {
-  content: "\f166";
-}
-
-.zmdi-flip::before {
-  content: "\f167";
 }
 
 .zmdi-flower-alt::before {
@@ -3755,16 +3635,8 @@
   content: "\f16d";
 }
 
-.zmdi-functions::before {
-  content: "\f16e";
-}
-
 .zmdi-gas-station::before {
   content: "\f16f";
-}
-
-.zmdi-gesture::before {
-  content: "\f170";
 }
 
 .zmdi-globe-alt::before {
@@ -3775,20 +3647,8 @@
   content: "\f172";
 }
 
-.zmdi-globe::before {
-  content: "\f173";
-}
-
-.zmdi-graduation-cap::before {
-  content: "\f174";
-}
-
 .zmdi-home::before {
   content: "\f175";
-}
-
-.zmdi-hospital-alt::before {
-  content: "\f176";
 }
 
 .zmdi-hospital::before {
@@ -3803,10 +3663,6 @@
   content: "\f179";
 }
 
-.zmdi-hourglass-outline::before {
-  content: "\f17a";
-}
-
 .zmdi-hourglass::before {
   content: "\f17b";
 }
@@ -3819,28 +3675,12 @@
   content: "\f17d";
 }
 
-.zmdi-image-o::before {
-  content: "\f17e";
-}
-
-.zmdi-image::before {
-  content: "\f17f";
-}
-
-.zmdi-inbox::before {
-  content: "\f180";
-}
-
 .zmdi-invert-colors-off::before {
   content: "\f181";
 }
 
 .zmdi-invert-colors::before {
   content: "\f182";
-}
-
-.zmdi-key::before {
-  content: "\f183";
 }
 
 .zmdi-label-alt-outline::before {
@@ -3883,16 +3723,8 @@
   content: "\f18d";
 }
 
-.zmdi-link::before {
-  content: "\f18e";
-}
-
 .zmdi-lock-open::before {
   content: "\f18f";
-}
-
-.zmdi-lock-outline::before {
-  content: "\f190";
 }
 
 .zmdi-lock::before {
@@ -3907,32 +3739,12 @@
   content: "\f193";
 }
 
-.zmdi-mail-send::before {
-  content: "\f194";
-}
-
 .zmdi-mall::before {
   content: "\f195";
 }
 
-.zmdi-map::before {
-  content: "\f196";
-}
-
 .zmdi-menu::before {
   content: "\f197";
-}
-
-.zmdi-money-box::before {
-  content: "\f198";
-}
-
-.zmdi-money-off::before {
-  content: "\f199";
-}
-
-.zmdi-money::before {
-  content: "\f19a";
 }
 
 .zmdi-more-vert::before {
@@ -3959,24 +3771,12 @@
   content: "\f1a0";
 }
 
-.zmdi-navigation::before {
-  content: "\f1a1";
-}
-
 .zmdi-open-in-browser::before {
   content: "\f1a2";
 }
 
-.zmdi-open-in-new::before {
-  content: "\f1a3";
-}
-
 .zmdi-palette::before {
   content: "\f1a4";
-}
-
-.zmdi-parking::before {
-  content: "\f1a5";
 }
 
 .zmdi-pin-account::before {
@@ -3985,10 +3785,6 @@
 
 .zmdi-pin-assistant::before {
   content: "\f1a7";
-}
-
-.zmdi-pin-drop::before {
-  content: "\f1a8";
 }
 
 .zmdi-pin-help::before {
@@ -4003,14 +3799,6 @@
   content: "\f1ab";
 }
 
-.zmdi-pizza::before {
-  content: "\f1ac";
-}
-
-.zmdi-plaster::before {
-  content: "\f1ad";
-}
-
 .zmdi-power-setting::before {
   content: "\f1ae";
 }
@@ -4023,16 +3811,8 @@
   content: "\f1b0";
 }
 
-.zmdi-puzzle-piece::before {
-  content: "\f1b1";
-}
-
 .zmdi-quote::before {
   content: "\f1b2";
-}
-
-.zmdi-railway::before {
-  content: "\f1b3";
 }
 
 .zmdi-receipt::before {
@@ -4045,10 +3825,6 @@
 
 .zmdi-refresh-sync-alert::before {
   content: "\f1b6";
-}
-
-.zmdi-refresh-sync-off::before {
-  content: "\f1b7";
 }
 
 .zmdi-refresh-sync::before {
@@ -4087,20 +3863,12 @@
   content: "\f1c0";
 }
 
-.zmdi-search-in-page::before {
-  content: "\f1c1";
-}
-
 .zmdi-search-replace::before {
   content: "\f1c2";
 }
 
 .zmdi-search::before {
   content: "\f1c3";
-}
-
-.zmdi-seat::before {
-  content: "\f1c4";
 }
 
 .zmdi-settings-square::before {
@@ -4119,24 +3887,12 @@
   content: "\f1c8";
 }
 
-.zmdi-shopping-basket::before {
-  content: "\f1c9";
-}
-
 .zmdi-shopping-cart-plus::before {
   content: "\f1ca";
 }
 
-.zmdi-shopping-cart::before {
-  content: "\f1cb";
-}
-
 .zmdi-sign-in::before {
   content: "\f1cc";
-}
-
-.zmdi-sort-amount-asc::before {
-  content: "\f1cd";
 }
 
 .zmdi-sort-amount-desc::before {
@@ -4219,10 +3975,6 @@
   content: "\f1e1";
 }
 
-.zmdi-traffic::before {
-  content: "\f1e2";
-}
-
 .zmdi-translate::before {
   content: "\f1e3";
 }
@@ -4235,10 +3987,6 @@
   content: "\f1e5";
 }
 
-.zmdi-truck::before {
-  content: "\f1e6";
-}
-
 .zmdi-turning-sign::before {
   content: "\f1e7";
 }
@@ -4247,16 +3995,8 @@
   content: "\f1e8";
 }
 
-.zmdi-washing-machine::before {
-  content: "\f1e9";
-}
-
 .zmdi-window-maximize::before {
   content: "\f1ea";
-}
-
-.zmdi-window-minimize::before {
-  content: "\f1eb";
 }
 
 .zmdi-window-restore::before {
@@ -4271,16 +4011,8 @@
   content: "\f1ee";
 }
 
-.zmdi-zoom-out::before {
-  content: "\f1ef";
-}
-
 .zmdi-alert-circle-o::before {
   content: "\f1f0";
-}
-
-.zmdi-alert-circle::before {
-  content: "\f1f1";
 }
 
 .zmdi-alert-octagon::before {
@@ -4303,16 +4035,8 @@
   content: "\f1f6";
 }
 
-.zmdi-info-outline::before {
-  content: "\f1f7";
-}
-
 .zmdi-info::before {
   content: "\f1f8";
-}
-
-.zmdi-notifications-active::before {
-  content: "\f1f9";
 }
 
 .zmdi-notifications-add::before {
@@ -4331,16 +4055,8 @@
   content: "\f1fd";
 }
 
-.zmdi-notifications::before {
-  content: "\f1fe";
-}
-
 .zmdi-account-add::before {
   content: "\f1ff";
-}
-
-.zmdi-account-box-mail::before {
-  content: "\f200";
 }
 
 .zmdi-account-box-o::before {
@@ -4353,10 +4069,6 @@
 
 .zmdi-account-box::before {
   content: "\f203";
-}
-
-.zmdi-account-calendar::before {
-  content: "\f204";
 }
 
 .zmdi-account-circle::before {
@@ -4427,20 +4139,12 @@
   content: "\f215";
 }
 
-.zmdi-walk::before {
-  content: "\f216";
-}
-
 .zmdi-cloud-box::before {
   content: "\f217";
 }
 
 .zmdi-cloud-circle::before {
   content: "\f218";
-}
-
-.zmdi-cloud-done::before {
-  content: "\f219";
 }
 
 .zmdi-cloud-download::before {
@@ -4467,16 +4171,8 @@
   content: "\f21f";
 }
 
-.zmdi-download::before {
-  content: "\f220";
-}
-
 .zmdi-file-plus::before {
   content: "\f221";
-}
-
-.zmdi-file-text::before {
-  content: "\f222";
 }
 
 .zmdi-file::before {
@@ -4489,10 +4185,6 @@
 
 .zmdi-folder-person::before {
   content: "\f225";
-}
-
-.zmdi-folder-star-alt::before {
-  content: "\f226";
 }
 
 .zmdi-folder-star::before {
@@ -4511,24 +4203,12 @@
   content: "\f22a";
 }
 
-.zmdi-border-all::before {
-  content: "\f22b";
-}
-
-.zmdi-border-bottom::before {
-  content: "\f22c";
-}
-
 .zmdi-border-clear::before {
   content: "\f22d";
 }
 
 .zmdi-border-color::before {
   content: "\f22e";
-}
-
-.zmdi-border-horizontal::before {
-  content: "\f22f";
 }
 
 .zmdi-border-inner::before {
@@ -4547,20 +4227,12 @@
   content: "\f233";
 }
 
-.zmdi-border-style::before {
-  content: "\f234";
-}
-
 .zmdi-border-top::before {
   content: "\f235";
 }
 
 .zmdi-border-vertical::before {
   content: "\f236";
-}
-
-.zmdi-copy::before {
-  content: "\f237";
 }
 
 .zmdi-crop::before {
@@ -4591,20 +4263,8 @@
   content: "\f23e";
 }
 
-.zmdi-format-clear::before {
-  content: "\f23f";
-}
-
-.zmdi-format-color-fill::before {
-  content: "\f240";
-}
-
 .zmdi-format-color-reset::before {
   content: "\f241";
-}
-
-.zmdi-format-color-text::before {
-  content: "\f242";
 }
 
 .zmdi-format-indent-decrease::before {
@@ -4613,10 +4273,6 @@
 
 .zmdi-format-indent-increase::before {
   content: "\f244";
-}
-
-.zmdi-format-italic::before {
-  content: "\f245";
 }
 
 .zmdi-format-line-spacing::before {
@@ -4651,10 +4307,6 @@
   content: "\f24d";
 }
 
-.zmdi-format-subject::before {
-  content: "\f24e";
-}
-
 .zmdi-format-underlined::before {
   content: "\f24f";
 }
@@ -4669,10 +4321,6 @@
 
 .zmdi-format-valign-top::before {
   content: "\f252";
-}
-
-.zmdi-redo::before {
-  content: "\f253";
 }
 
 .zmdi-select-all::before {
@@ -4695,24 +4343,12 @@
   content: "\f258";
 }
 
-.zmdi-wrap-text::before {
-  content: "\f259";
-}
-
 .zmdi-comment-alert::before {
   content: "\f25a";
 }
 
-.zmdi-comment-alt-text::before {
-  content: "\f25b";
-}
-
 .zmdi-comment-alt::before {
   content: "\f25c";
-}
-
-.zmdi-comment-edit::before {
-  content: "\f25d";
 }
 
 .zmdi-comment-image::before {
@@ -4721,10 +4357,6 @@
 
 .zmdi-comment-list::before {
   content: "\f25f";
-}
-
-.zmdi-comment-more::before {
-  content: "\f260";
 }
 
 .zmdi-comment-outline::before {
@@ -4741,14 +4373,6 @@
 
 .zmdi-comment-video::before {
   content: "\f264";
-}
-
-.zmdi-comment::before {
-  content: "\f265";
-}
-
-.zmdi-comments::before {
-  content: "\f266";
 }
 
 .zmdi-check-all::before {
@@ -4799,10 +4423,6 @@
   content: "\f272";
 }
 
-.zmdi-minus::before {
-  content: "\f273";
-}
-
 .zmdi-plus-circle-o-duplicate::before {
   content: "\f274";
 }
@@ -4835,10 +4455,6 @@
   content: "\f27b";
 }
 
-.zmdi-star-outline::before {
-  content: "\f27c";
-}
-
 .zmdi-star::before {
   content: "\f27d";
 }
@@ -4859,32 +4475,12 @@
   content: "\f281";
 }
 
-.zmdi-bluetooth::before {
-  content: "\f282";
-}
-
 .zmdi-camera-add::before {
   content: "\f283";
 }
 
-.zmdi-camera-alt::before {
-  content: "\f284";
-}
-
-.zmdi-camera-bw::before {
-  content: "\f285";
-}
-
-.zmdi-camera-front::before {
-  content: "\f286";
-}
-
 .zmdi-camera-mic::before {
   content: "\f287";
-}
-
-.zmdi-camera-party-mode::before {
-  content: "\f288";
 }
 
 .zmdi-camera-rear::before {
@@ -4911,20 +4507,12 @@
   content: "\f28e";
 }
 
-.zmdi-card-sd::before {
-  content: "\f28f";
-}
-
 .zmdi-card-sim::before {
   content: "\f290";
 }
 
 .zmdi-desktop-mac::before {
   content: "\f291";
-}
-
-.zmdi-desktop-windows::before {
-  content: "\f292";
 }
 
 .zmdi-device-hub::before {
@@ -4939,10 +4527,6 @@
   content: "\f295";
 }
 
-.zmdi-dock::before {
-  content: "\f296";
-}
-
 .zmdi-floppy::before {
   content: "\f297";
 }
@@ -4951,16 +4535,8 @@
   content: "\f298";
 }
 
-.zmdi-gps-dot::before {
-  content: "\f299";
-}
-
 .zmdi-gps-off::before {
   content: "\f29a";
-}
-
-.zmdi-gps::before {
-  content: "\f29b";
 }
 
 .zmdi-headset-mic::before {
@@ -4999,24 +4575,12 @@
   content: "\f2a4";
 }
 
-.zmdi-laptop-chromebook::before {
-  content: "\f2a5";
-}
-
 .zmdi-laptop-mac::before {
   content: "\f2a6";
 }
 
 .zmdi-laptop::before {
   content: "\f2a7";
-}
-
-.zmdi-mic-off::before {
-  content: "\f2a8";
-}
-
-.zmdi-mic-outline::before {
-  content: "\f2a9";
 }
 
 .zmdi-mic-setting::before {
@@ -5027,64 +4591,20 @@
   content: "\f2ab";
 }
 
-.zmdi-mouse::before {
-  content: "\f2ac";
-}
-
 .zmdi-network-alert::before {
   content: "\f2ad";
-}
-
-.zmdi-network-locked::before {
-  content: "\f2ae";
 }
 
 .zmdi-network-off::before {
   content: "\f2af";
 }
 
-.zmdi-network-outline::before {
-  content: "\f2b0";
-}
-
-.zmdi-network-setting::before {
-  content: "\f2b1";
-}
-
 .zmdi-network::before {
   content: "\f2b2";
 }
 
-.zmdi-phone-bluetooth::before {
-  content: "\f2b3";
-}
-
-.zmdi-phone-end::before {
-  content: "\f2b4";
-}
-
-.zmdi-phone-forwarded::before {
-  content: "\f2b5";
-}
-
-.zmdi-phone-in-talk::before {
-  content: "\f2b6";
-}
-
-.zmdi-phone-locked::before {
-  content: "\f2b7";
-}
-
-.zmdi-phone-missed::before {
-  content: "\f2b8";
-}
-
 .zmdi-phone-msg::before {
   content: "\f2b9";
-}
-
-.zmdi-phone-paused::before {
-  content: "\f2ba";
 }
 
 .zmdi-phone-ring::before {
@@ -5093,10 +4613,6 @@
 
 .zmdi-phone-setting::before {
   content: "\f2bc";
-}
-
-.zmdi-phone-sip::before {
-  content: "\f2bd";
 }
 
 .zmdi-phone::before {
@@ -5115,10 +4631,6 @@
   content: "\f2c1";
 }
 
-.zmdi-radio::before {
-  content: "\f2c2";
-}
-
 .zmdi-reader::before {
   content: "\f2c3";
 }
@@ -5127,16 +4639,8 @@
   content: "\f2c4";
 }
 
-.zmdi-remote-control::before {
-  content: "\f2c5";
-}
-
 .zmdi-router::before {
   content: "\f2c6";
-}
-
-.zmdi-scanner::before {
-  content: "\f2c7";
 }
 
 .zmdi-smartphone-android::before {
@@ -5163,16 +4667,8 @@
   content: "\f2cd";
 }
 
-.zmdi-smartphone-landscape::before {
-  content: "\f2ce";
-}
-
 .zmdi-smartphone-lock::before {
   content: "\f2cf";
-}
-
-.zmdi-smartphone-portrait-lock::before {
-  content: "\f2d0";
 }
 
 .zmdi-smartphone-ring::before {
@@ -5215,16 +4711,8 @@
   content: "\f2da";
 }
 
-.zmdi-tv-play::before {
-  content: "\f2db";
-}
-
 .zmdi-tv::before {
   content: "\f2dc";
-}
-
-.zmdi-usb::before {
-  content: "\f2dd";
 }
 
 .zmdi-videocam-off::before {
@@ -5241,10 +4729,6 @@
 
 .zmdi-watch::before {
   content: "\f2e1";
-}
-
-.zmdi-wifi-alt-2::before {
-  content: "\f2e2";
 }
 
 .zmdi-wifi-alt::before {
@@ -5267,10 +4751,6 @@
   content: "\f2e7";
 }
 
-.zmdi-wifi::before {
-  content: "\f2e8";
-}
-
 .zmdi-arrow-left-bottom::before {
   content: "\f2e9";
 }
@@ -5291,10 +4771,6 @@
   content: "\f2ed";
 }
 
-.zmdi-arrow-right::before {
-  content: "\f2ee";
-}
-
 .zmdi-arrow-split::before {
   content: "\f2ef";
 }
@@ -5309,10 +4785,6 @@
 
 .zmdi-caret-down::before {
   content: "\f2f2";
-}
-
-.zmdi-caret-left-circle::before {
-  content: "\f2f3";
 }
 
 .zmdi-caret-left::before {
@@ -5331,16 +4803,8 @@
   content: "\f2f7";
 }
 
-.zmdi-caret-up::before {
-  content: "\f2f8";
-}
-
 .zmdi-chevron-down::before {
   content: "\f2f9";
-}
-
-.zmdi-chevron-left::before {
-  content: "\f2fa";
 }
 
 .zmdi-chevron-right::before {
@@ -5415,10 +4879,6 @@
   content: "\f30c";
 }
 
-.zmdi-swap::before {
-  content: "\f30d";
-}
-
 .zmdi-trending-down::before {
   content: "\f30e";
 }
@@ -5439,10 +4899,6 @@
   content: "\f312";
 }
 
-.zmdi-apps::before {
-  content: "\f313";
-}
-
 .zmdi-grid-off::before {
   content: "\f314";
 }
@@ -5457,10 +4913,6 @@
 
 .zmdi-view-array::before {
   content: "\f317";
-}
-
-.zmdi-view-carousel::before {
-  content: "\f318";
 }
 
 .zmdi-view-column::before {
@@ -5479,10 +4931,6 @@
   content: "\f31c";
 }
 
-.zmdi-view-day::before {
-  content: "\f31d";
-}
-
 .zmdi-view-headline::before {
   content: "\f31e";
 }
@@ -5499,20 +4947,8 @@
   content: "\f321";
 }
 
-.zmdi-view-quilt::before {
-  content: "\f322";
-}
-
-.zmdi-view-stream::before {
-  content: "\f323";
-}
-
 .zmdi-view-subtitles::before {
   content: "\f324";
-}
-
-.zmdi-view-toc::before {
-  content: "\f325";
 }
 
 .zmdi-view-web::before {
@@ -5563,14 +4999,6 @@
   content: "\f331";
 }
 
-.zmdi-calendar::before {
-  content: "\f332";
-}
-
-.zmdi-time-countdown::before {
-  content: "\f333";
-}
-
 .zmdi-time-interval::before {
   content: "\f334";
 }
@@ -5579,24 +5007,12 @@
   content: "\f335";
 }
 
-.zmdi-time-restore::before {
-  content: "\f336";
-}
-
-.zmdi-time::before {
-  content: "\f337";
-}
-
 .zmdi-timer-off::before {
   content: "\f338";
 }
 
 .zmdi-timer::before {
   content: "\f339";
-}
-
-.zmdi-android-alt::before {
-  content: "\f33a";
 }
 
 .zmdi-android::before {
@@ -5625,22 +5041,6 @@
 
 .zmdi-evernote::before {
   content: "\f341";
-}
-
-.zmdi-facebook-box::before {
-  content: "\f342";
-}
-
-.zmdi-facebook::before {
-  content: "\f343";
-}
-
-.zmdi-github-box::before {
-  content: "\f344";
-}
-
-.zmdi-github::before {
-  content: "\f345";
 }
 
 .zmdi-google-drive::before {
@@ -5695,10 +5095,6 @@
   content: "\f352";
 }
 
-.zmdi-language-python-alt::before {
-  content: "\f353";
-}
-
 .zmdi-language-python::before {
   content: "\f354";
 }
@@ -5735,10 +5131,6 @@
   content: "\f35c";
 }
 
-.zmdi-steam-square::before {
-  content: "\f35d";
-}
-
 .zmdi-steam::before {
   content: "\f35e";
 }
@@ -5759,20 +5151,8 @@
   content: "\f362";
 }
 
-.zmdi-windows::before {
-  content: "\f363";
-}
-
 .zmdi-aspect-ratio-alt::before {
   content: "\f364";
-}
-
-.zmdi-aspect-ratio::before {
-  content: "\f365";
-}
-
-.zmdi-blur-circular::before {
-  content: "\f366";
 }
 
 .zmdi-blur-linear::before {
@@ -5827,24 +5207,12 @@
   content: "\f373";
 }
 
-.zmdi-center-focus-weak::before {
-  content: "\f374";
-}
-
 .zmdi-compare::before {
   content: "\f375";
 }
 
-.zmdi-crop-16-9::before {
-  content: "\f376";
-}
-
 .zmdi-crop-3-2::before {
   content: "\f377";
-}
-
-.zmdi-crop-5-4::before {
-  content: "\f378";
 }
 
 .zmdi-crop-7-5::before {
@@ -5869,10 +5237,6 @@
 
 .zmdi-crop-square::before {
   content: "\f37e";
-}
-
-.zmdi-exposure-alt::before {
-  content: "\f37f";
 }
 
 .zmdi-exposure::before {
@@ -5903,28 +5267,8 @@
   content: "\f386";
 }
 
-.zmdi-graphic-eq::before {
-  content: "\f387";
-}
-
-.zmdi-hdr-off::before {
-  content: "\f388";
-}
-
-.zmdi-hdr-strong::before {
-  content: "\f389";
-}
-
-.zmdi-hdr-weak::before {
-  content: "\f38a";
-}
-
 .zmdi-hdr::before {
   content: "\f38b";
-}
-
-.zmdi-iridescent::before {
-  content: "\f38c";
 }
 
 .zmdi-leak-off::before {
@@ -5943,10 +5287,6 @@
   content: "\f390";
 }
 
-.zmdi-panorama-horizontal::before {
-  content: "\f391";
-}
-
 .zmdi-panorama-vertical::before {
   content: "\f392";
 }
@@ -5959,20 +5299,8 @@
   content: "\f394";
 }
 
-.zmdi-photo-size-select-small::before {
-  content: "\f395";
-}
-
 .zmdi-picture-in-picture::before {
   content: "\f396";
-}
-
-.zmdi-slideshow::before {
-  content: "\f397";
-}
-
-.zmdi-texture::before {
-  content: "\f398";
 }
 
 .zmdi-tonality::before {
@@ -6011,14 +5339,6 @@
   content: "\f3a1";
 }
 
-.zmdi-forward-30::before {
-  content: "\f3a2";
-}
-
-.zmdi-forward-5::before {
-  content: "\f3a3";
-}
-
 .zmdi-hearing::before {
   content: "\f3a4";
 }
@@ -6047,10 +5367,6 @@
   content: "\f3aa";
 }
 
-.zmdi-playlist-audio::before {
-  content: "\f3ab";
-}
-
 .zmdi-playlist-plus::before {
   content: "\f3ac";
 }
@@ -6075,16 +5391,8 @@
   content: "\f3b1";
 }
 
-.zmdi-replay::before {
-  content: "\f3b2";
-}
-
 .zmdi-shuffle::before {
   content: "\f3b3";
-}
-
-.zmdi-skip-next::before {
-  content: "\f3b4";
 }
 
 .zmdi-skip-previous::before {
@@ -6099,24 +5407,12 @@
   content: "\f3b7";
 }
 
-.zmdi-tune::before {
-  content: "\f3b8";
-}
-
 .zmdi-volume-down::before {
   content: "\f3b9";
 }
 
-.zmdi-volume-mute::before {
-  content: "\f3ba";
-}
-
 .zmdi-volume-off::before {
   content: "\f3bb";
-}
-
-.zmdi-volume-up::before {
-  content: "\f3bc";
 }
 
 .zmdi-n-1-square::before {
@@ -6143,10 +5439,6 @@
   content: "\f3c2";
 }
 
-.zmdi-neg-1::before {
-  content: "\f3c3";
-}
-
 .zmdi-neg-2::before {
   content: "\f3c4";
 }
@@ -6171,14 +5463,6 @@
   content: "\f3c9";
 }
 
-.zmdi-airline-seat-flat-angled::before {
-  content: "\f3ca";
-}
-
-.zmdi-airline-seat-flat::before {
-  content: "\f3cb";
-}
-
 .zmdi-airline-seat-individual-suite::before {
   content: "\f3cc";
 }
@@ -6199,10 +5483,6 @@
   content: "\f3d0";
 }
 
-.zmdi-airline-seat-recline-normal::before {
-  content: "\f3d1";
-}
-
 .zmdi-airplay::before {
   content: "\f3d2";
 }
@@ -6217,10 +5497,6 @@
 
 .zmdi-developer-board::before {
   content: "\f3d5";
-}
-
-.zmdi-disc-full::before {
-  content: "\f3d6";
 }
 
 .zmdi-explicit::before {
@@ -6251,24 +5527,12 @@
   content: "\f3dd";
 }
 
-.zmdi-hq::before {
-  content: "\f3de";
-}
-
 .zmdi-markunread-mailbox::before {
   content: "\f3df";
 }
 
-.zmdi-memory::before {
-  content: "\f3e0";
-}
-
 .zmdi-nfc::before {
   content: "\f3e1";
-}
-
-.zmdi-play-for-work::before {
-  content: "\f3e2";
 }
 
 .zmdi-power-input::before {
@@ -6283,20 +5547,8 @@
   content: "\f3e5";
 }
 
-.zmdi-tap-and-play::before {
-  content: "\f3e6";
-}
-
-.zmdi-vibration::before {
-  content: "\f3e7";
-}
-
 .zmdi-voicemail::before {
   content: "\f3e8";
-}
-
-.zmdi-group::before {
-  content: "\f3e9";
 }
 
 .zmdi-rss::before {
@@ -6307,14 +5559,6 @@
   content: "\f3eb";
 }
 
-.zmdi-spinner::before {
-  content: "\f3ec";
-}
-
-.zmdi-ungroup::before {
-  content: "\f3ed";
-}
-
 .zmdi-500px::before {
   content: "\f3ee";
 }
@@ -6323,20 +5567,8 @@
   content: "\f3ef";
 }
 
-.zmdi-amazon::before {
-  content: "\f3f0";
-}
-
-.zmdi-blogger::before {
-  content: "\f3f1";
-}
-
 .zmdi-delicious::before {
   content: "\f3f2";
-}
-
-.zmdi-disqus::before {
-  content: "\f3f3";
 }
 
 .zmdi-flattr::before {
@@ -6351,28 +5583,12 @@
   content: "\f3f6";
 }
 
-.zmdi-google-old::before {
-  content: "\f3f7";
-}
-
 .zmdi-linkedin::before {
   content: "\f3f8";
 }
 
-.zmdi-odnoklassniki::before {
-  content: "\f3f9";
-}
-
-.zmdi-outlook::before {
-  content: "\f3fa";
-}
-
 .zmdi-paypal-alt::before {
   content: "\f3fb";
-}
-
-.zmdi-pinterest::before {
-  content: "\f3fc";
 }
 
 .zmdi-playstation::before {
@@ -6387,28 +5603,8 @@
   content: "\f3ff";
 }
 
-.zmdi-slideshare::before {
-  content: "\f400";
-}
-
-.zmdi-soundcloud::before {
-  content: "\f401";
-}
-
-.zmdi-tumblr::before {
-  content: "\f402";
-}
-
 .zmdi-twitch::before {
   content: "\f403";
-}
-
-.zmdi-vimeo::before {
-  content: "\f404";
-}
-
-.zmdi-whatsapp::before {
-  content: "\f405";
 }
 
 .zmdi-xbox::before {
@@ -6421,10 +5617,6 @@
 
 .zmdi-youtube-play::before {
   content: "\f408";
-}
-
-.zmdi-youtube::before {
-  content: "\f409";
 }
 
 .zmdi-import-export::before {

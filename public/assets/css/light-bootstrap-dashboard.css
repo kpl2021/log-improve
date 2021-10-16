@@ -269,6 +269,14 @@ input:focus {
 }
 
 .btn {
+  border-width: 2px;
+  background-color: transparent;
+  font-weight: 400;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  padding: 8px 16px;
+  border-color: #888888;
+  color: #888888;
   -webkit-transition: all 100ms ease-in;
   -moz-transition: all 100ms ease-in;
   -o-transition: all 100ms ease-in;
@@ -427,11 +435,6 @@ input:focus {
   right: 30px;
 }
 
-.sidebar .logo {
-  padding: 10px 15px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
-
 .sidebar .logo p {
   float: left;
   font-size: 20px;
@@ -439,17 +442,6 @@ input:focus {
   color: #ffffff;
   line-height: 20px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-.sidebar .logo .simple-text {
-  text-transform: uppercase;
-  padding: 5px 0px;
-  display: block;
-  font-size: 18px;
-  color: #ffffff;
-  text-align: center;
-  font-weight: 400;
-  line-height: 30px;
 }
 
 .sidebar .logo-tim {
@@ -641,17 +633,6 @@ input:focus {
   -webkit-transition-timing-function: linear, linear;
   transition-timing-function: linear, linear;
   -webkit-overflow-scrolling: touch;
-}
-
-.btn {
-  border-width: 2px;
-  background-color: transparent;
-  font-weight: 400;
-  opacity: 0.8;
-  filter: alpha(opacity=80);
-  padding: 8px 16px;
-  border-color: #888888;
-  color: #888888;
 }
 
 .btn:hover,
@@ -3657,6 +3638,12 @@ fieldset[disabled] .form-control {
 @media (max-width: 991px) {
   .main-panel {
     width: 100%;
+    left: 0;
+    -webkit-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -moz-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -o-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -ms-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
   }
 
   .navbar-transparent {
@@ -3666,15 +3653,6 @@ fieldset[disabled] .form-control {
 
   body {
     position: relative;
-  }
-
-  .main-panel {
-    -webkit-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
-    -moz-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
-    -o-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
-    -ms-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
-    transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
-    left: 0;
   }
 
   .navbar .container {
