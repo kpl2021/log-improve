@@ -163,6 +163,10 @@
 }
 
 .navbar-transparent {
+  padding-top: 15px;
+  background-color: transparent;
+  border-bottom: 1px solid transparent;
+
   .dropdown-menu .divider {
     background-color: rgba($white-color, 0.2);
   }
@@ -287,12 +291,6 @@
 
 .navbar-ct-red {
   @include navbar-color($red-navbar);
-}
-
-.navbar-transparent {
-  padding-top: 15px;
-  background-color: transparent;
-  border-bottom: 1px solid transparent;
 }
 
 .navbar-toggle {

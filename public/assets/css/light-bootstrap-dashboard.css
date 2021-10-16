@@ -444,21 +444,6 @@ input:focus {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.sidebar .logo-tim {
-  border-radius: 50%;
-  border: 1px solid #333;
-  display: block;
-  height: 61px;
-  width: 61px;
-  float: left;
-  overflow: hidden;
-}
-
-.sidebar .logo-tim img {
-  width: 60px;
-  height: 60px;
-}
-
 .sidebar::after,
 .sidebar::before {
   display: block;
@@ -1212,6 +1197,7 @@ fieldset[disabled] .btn-neutral.active {
 
 .btn-group.select {
   width: 100%;
+  overflow: hidden;
 }
 
 .btn-group.select .btn {
@@ -1689,10 +1675,6 @@ fieldset[disabled] .form-control {
 .radio input[type="radio"]:checked + label::after {
   font-family: "FontAwesome";
   content: "\f192";
-  color: #dddddd;
-}
-
-.radio input[type="radio"]:checked + label::after {
   color: #1dc7ea;
 }
 
@@ -2462,10 +2444,6 @@ fieldset[disabled] .form-control {
 .dropdown-with-icons i[class^="fa"] {
   font-size: 14px;
   width: 38px;
-}
-
-.btn-group.select {
-  overflow: hidden;
 }
 
 .btn-group.select.open {

@@ -50,9 +50,6 @@
 .checkbox input[type="checkbox"]:checked + label::after {
   font-family: "FontAwesome";
   content: "\f046";
-}
-
-.checkbox input[type="checkbox"]:checked + label::after {
   color: $info-color;
 }
 
@@ -151,10 +148,6 @@
 .radio input[type="radio"]:checked + label::after {
   font-family: "FontAwesome";
   content: "\f192";
-  color: $medium-gray;
-}
-
-.radio input[type="radio"]:checked + label::after {
   color: $info-color;
 }
 

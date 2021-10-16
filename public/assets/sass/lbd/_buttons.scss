@@ -24,6 +24,12 @@
   &.btn-icon {
     padding: $padding-base-vertical;
   }
+
+  &:disabled,
+  &[disabled],
+  &.disabled {
+    @include opacity(0.5);
+  }
 }
 
 // Apply the mixin to the buttons
@@ -67,14 +73,6 @@
   &.btn-simple:active,
   &.btn-simple.active {
     background-color: transparent;
-  }
-}
-
-.btn {
-  &:disabled,
-  &[disabled],
-  &.disabled {
-    @include opacity(0.5);
   }
 }
 
