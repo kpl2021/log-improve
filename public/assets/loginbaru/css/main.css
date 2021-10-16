@@ -101,12 +101,15 @@ input:focus {
 input:focus::-webkit-input-placeholder {
   color: transparent;
 }
+
 input:focus:-moz-placeholder {
   color: transparent;
 }
+
 input:focus::-moz-placeholder {
   color: transparent;
 }
+
 input:focus:-ms-input-placeholder {
   color: transparent;
 }
@@ -114,12 +117,15 @@ input:focus:-ms-input-placeholder {
 textarea:focus::-webkit-input-placeholder {
   color: transparent;
 }
+
 textarea:focus:-moz-placeholder {
   color: transparent;
 }
+
 textarea:focus::-moz-placeholder {
   color: transparent;
 }
+
 textarea:focus:-ms-input-placeholder {
   color: transparent;
 }
@@ -127,12 +133,15 @@ textarea:focus:-ms-input-placeholder {
 input::-webkit-input-placeholder {
   color: #adadad;
 }
+
 input:-moz-placeholder {
   color: #adadad;
 }
+
 input::-moz-placeholder {
   color: #adadad;
 }
+
 input:-ms-input-placeholder {
   color: #adadad;
 }
@@ -140,12 +149,15 @@ input:-ms-input-placeholder {
 textarea::-webkit-input-placeholder {
   color: #adadad;
 }
+
 textarea:-moz-placeholder {
   color: #adadad;
 }
+
 textarea::-moz-placeholder {
   color: #adadad;
 }
+
 textarea:-ms-input-placeholder {
   color: #adadad;
 }
@@ -185,9 +197,11 @@ iframe {
 .bg1 {
   background-color: #3b5998;
 }
+
 .bg2 {
   background-color: #1da1f2;
 }
+
 .bg3 {
   background-color: #ea4335;
 }

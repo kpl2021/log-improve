@@ -460,6 +460,7 @@ h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
+
   #hero .hero-img img {
     width: 100%;
   }
@@ -485,6 +486,7 @@ h6 {
   0% {
     transform: translateY(10px);
   }
+
   100% {
     transform: translateY(-10px);
   }
@@ -570,6 +572,7 @@ section {
   .clients img {
     width: 40%;
   }
+
   .clients button {
     margin-top: 20px;
     margin-left: 220px;
@@ -580,6 +583,7 @@ section {
   .clients img {
     width: 30%;
   }
+
   .clients button {
     margin-top: 20px;
     margin-left: 220px;
@@ -712,6 +716,7 @@ section {
   .counts .image {
     text-align: center;
   }
+
   .counts .image img {
     max-width: 70%;
   }
@@ -999,10 +1004,12 @@ section {
   .testimonials .testimonial-wrap {
     padding-left: 0;
   }
+
   .testimonials .testimonial-item {
     padding: 30px;
     margin: 15px;
   }
+
   .testimonials .testimonial-item .testimonial-img {
     position: static;
     left: auto;
@@ -1476,6 +1483,7 @@ section {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -1485,6 +1493,7 @@ section {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -1542,9 +1551,11 @@ section {
   .breadcrumbs .d-flex {
     display: block !important;
   }
+
   .breadcrumbs ol {
     display: block;
   }
+
   .breadcrumbs ol li {
     display: inline-block;
   }

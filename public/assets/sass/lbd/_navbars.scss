@@ -40,7 +40,7 @@
       margin: $navbar-margin-a-btn-round;
     }
 
-    > li > a [class^='fa'] {
+    > li > a [class^="fa"] {
       font-size: $font-size-large + 1;
       position: relative;
       line-height: 16px;
@@ -63,13 +63,16 @@
       left: 7px;
     }
   }
+
   .btn {
     margin: $navbar-margin-btn;
     font-size: $font-size-base;
   }
+
   .btn-simple {
     font-size: $font-size-medium;
   }
+
   .caret {
     // @include center-item();
   }
@@ -88,7 +91,7 @@
 }
 
 .navbar-transparent,
-[class*='navbar-ct'] {
+[class*="navbar-ct"] {
   .navbar-brand {
     color: $white-color;
     @include opacity(0.9);
@@ -106,6 +109,7 @@
       border-color: $white-color;
       @include opacity(0.8);
     }
+
     > .active > a:not(.btn),
     > .active > a:hover:not(.btn),
     > .active > a:focus:not(.btn),
@@ -116,6 +120,7 @@
       color: $white-color;
       @include opacity(1);
     }
+
     .nav > li > a.btn:hover {
       background-color: transparent;
     }
@@ -140,11 +145,13 @@
     color: $white-color;
     border-color: $white-color;
   }
+
   .btn-default.btn-fill {
     color: $dark-gray;
     background-color: $white-color;
     @include opacity(0.9);
   }
+
   .btn-default.btn-fill:hover,
   .btn-default.btn-fill:focus,
   .btn-default.btn-fill:active,
@@ -154,6 +161,7 @@
     @include opacity(1);
   }
 }
+
 .navbar-transparent {
   .dropdown-menu .divider {
     background-color: rgba($white-color, 0.2);
@@ -208,6 +216,7 @@
     color: $info-color;
     border-color: $info-color;
   }
+
   &:not(.navbar-transparent) .btn-neutral,
   &:not(.navbar-transparent) .btn-neutral:hover,
   &:not(.navbar-transparent) .btn-neutral:active {
@@ -222,6 +231,7 @@
     margin-top: 12px;
     margin-bottom: 12px;
   }
+
   .navbar-nav {
     > li > a {
       text-align: center;
@@ -229,10 +239,11 @@
       margin: $navbar-margin-a-icons;
     }
 
-    [class^='pe'] {
+    [class^="pe"] {
       font-size: 30px;
       position: relative;
     }
+
     p {
       margin: 3px 0 0;
     }
@@ -241,6 +252,7 @@
 
 .navbar-form {
   @include box-shadow(none);
+
   .form-control {
     @include light-form();
     height: 22px;
@@ -248,8 +260,9 @@
     line-height: $line-height-general;
     color: $light-gray;
   }
+
   .navbar-transparent & .form-control,
-  [class*='navbar-ct'] & .form-control {
+  [class*="navbar-ct"] & .form-control {
     color: $white-color;
     border: $none;
     border-bottom: 1px solid rgba($white-color, 0.6);
@@ -259,15 +272,19 @@
 .navbar-ct-blue {
   @include navbar-color($blue-navbar);
 }
+
 .navbar-ct-azure {
   @include navbar-color($azure-navbar);
 }
+
 .navbar-ct-green {
   @include navbar-color($green-navbar);
 }
+
 .navbar-ct-orange {
   @include navbar-color($orange-navbar);
 }
+
 .navbar-ct-red {
   @include navbar-color($red-navbar);
 }
@@ -286,6 +303,7 @@
   .icon-bar {
     background-color: $white-color;
   }
+
   .navbar-collapse,
   .navbar-form {
     border-color: transparent;

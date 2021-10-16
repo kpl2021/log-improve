@@ -31,15 +31,19 @@
 .btn-primary {
   @include btn-styles($primary-color, $primary-states-color);
 }
+
 .btn-success {
   @include btn-styles($success-color, $success-states-color);
 }
+
 .btn-info {
   @include btn-styles($info-color, $info-states-color);
 }
+
 .btn-warning {
   @include btn-styles($warning-color, $warning-states-color);
 }
+
 .btn-danger {
   @include btn-styles($danger-color, $danger-states-color);
 }
@@ -73,6 +77,7 @@
     @include opacity(0.5);
   }
 }
+
 .btn-round {
   border-width: $border-thin;
   border-radius: $btn-round-radius !important;
@@ -82,6 +87,7 @@
     padding: $padding-round-vertical;
   }
 }
+
 .btn-simple {
   border: $none;
   font-size: $font-size-medium;
@@ -91,6 +97,7 @@
     padding: $padding-base-vertical;
   }
 }
+
 .btn-lg {
   @include btn-size(
     $padding-large-vertical,
@@ -100,6 +107,7 @@
   );
   font-weight: $font-weight-normal;
 }
+
 .btn-sm {
   @include btn-size(
     $padding-small-vertical,
@@ -108,6 +116,7 @@
     $border-radius-small
   );
 }
+
 .btn-xs {
   @include btn-size(
     $padding-xs-vertical,
@@ -116,6 +125,7 @@
     $border-radius-small
   );
 }
+
 .btn-wd {
   min-width: 140px;
 }
@@ -123,9 +133,11 @@
 .btn-group.select {
   width: 100%;
 }
+
 .btn-group.select .btn {
   text-align: left;
 }
+
 .btn-group.select .caret {
   position: absolute;
   top: 50%;

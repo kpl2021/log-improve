@@ -451,6 +451,7 @@ fieldset[disabled] .datepicker table tr td.range.today.focus {
   background-color: #5e5e5e;
   border-color: #373737;
 }
+
 .datepicker table tr td.selected:active,
 .datepicker table tr td.selected.highlighted:active,
 .datepicker table tr td.selected.active,
@@ -803,4 +804,5 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.focus {
 .datepicker.datepicker-inline td {
   padding: 0px 5px;
 }
+
 /*# sourceMappingURL=bootstrap-datepicker3.standalone.css.map */

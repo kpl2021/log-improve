@@ -37,6 +37,7 @@
     font-weight: normal;
     line-height: $line-height;
     text-align: center;
+
     &:hover,
     &:focus {
       color: $default-states-color;
@@ -67,6 +68,7 @@
 .footer:not(.footer-big) {
   nav > ul {
     font-size: $font-size-base;
+
     li {
       margin-left: 20px;
       float: left;

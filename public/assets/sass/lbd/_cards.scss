@@ -43,15 +43,19 @@
   .btn-hover {
     @include opacity(0);
   }
+
   &:hover .btn-hover {
     @include opacity(1);
   }
+
   .content {
     padding: 15px 15px 10px 15px;
   }
+
   .header {
     padding: 15px 15px 0;
   }
+
   .category,
   label {
     font-size: $font-size-base;
@@ -75,6 +79,7 @@
     color: $black-color;
     font-weight: $font-weight-light;
   }
+
   .avatar {
     width: 30px;
     height: 30px;
@@ -82,10 +87,12 @@
     border-radius: 50%;
     margin-right: 5px;
   }
+
   .description {
     font-size: $font-size-base;
     color: #333;
   }
+
   .footer {
     padding: 0;
     background-color: $transparent-bg;
@@ -100,9 +107,11 @@
       margin-bottom: 5px;
     }
   }
+
   .stats {
     color: #a9a9a9;
   }
+
   .footer div {
     display: inline-block;
   }
@@ -112,20 +121,23 @@
     font-weight: $font-weight-bold;
     text-transform: uppercase;
   }
+
   .author i {
     font-size: $font-size-base;
   }
+
   h6 {
     font-size: $font-size-small;
     margin: 0;
   }
+
   &.card-separator:after {
     height: 100%;
     right: -15px;
     top: 0;
     width: 1px;
     background-color: $medium-gray;
-    content: '';
+    content: "";
     position: absolute;
   }
 
@@ -155,19 +167,23 @@
     }
   }
 }
+
 .card-user {
   .image {
     height: 110px;
   }
+
   .image-plain {
     height: 0;
     margin-top: 110px;
   }
+
   .author {
     text-align: center;
     text-transform: none;
     margin-top: -70px;
   }
+
   .avatar {
     width: 124px;
     height: 124px;
@@ -179,9 +195,11 @@
       border-color: #eeeeee;
     }
   }
+
   .title {
     line-height: 24px;
   }
+
   .content {
     min-height: 240px;
   }
@@ -192,10 +210,12 @@
   .footer {
     padding: 5px 15px 10px;
   }
+
   hr {
     margin: 5px 15px;
   }
 }
+
 .card-plain {
   background-color: transparent;
   box-shadow: none;

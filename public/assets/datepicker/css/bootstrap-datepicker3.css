@@ -216,6 +216,7 @@ fieldset[disabled] .datepicker table tr td.highlighted.focus {
   background-color: #ffc966;
   border-color: #f59e00;
 }
+
 .datepicker table tr td.today:active:hover,
 .datepicker table tr td.today.active:hover,
 .datepicker table tr td.today:active:focus,
@@ -772,4 +773,5 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.focus {
   margin-left: -5px;
   margin-right: -5px;
 }
+
 /*# sourceMappingURL=bootstrap-datepicker3.css.map */

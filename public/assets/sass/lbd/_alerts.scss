@@ -23,7 +23,7 @@
     top: 70px;
   }
 
-  span[data-notify='icon'] {
+  span[data-notify="icon"] {
     font-size: 30px;
     display: block;
     left: 15px;
@@ -61,7 +61,7 @@
     max-width: 89%;
   }
 
-  &[data-notify='container'] {
+  &[data-notify="container"] {
     padding: 10px 10px 10px 20px;
     border-radius: $border-radius-base;
   }
@@ -70,15 +70,19 @@
     padding-left: 65px;
   }
 }
+
 .alert-info {
   background-color: $azure-navbar;
 }
+
 .alert-success {
   background-color: $green-navbar;
 }
+
 .alert-warning {
   background-color: $orange-navbar;
 }
+
 .alert-danger {
   background-color: $red-navbar;
 }
