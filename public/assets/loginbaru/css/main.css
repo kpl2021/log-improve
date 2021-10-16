@@ -3,22 +3,22 @@
 
 @font-face {
   font-family: Poppins-Regular;
-  src: url('../fonts/poppins/Poppins-Regular.ttf');
+  src: url("../fonts/poppins/Poppins-Regular.ttf");
 }
 
 @font-face {
   font-family: Poppins-Medium;
-  src: url('../fonts/poppins/Poppins-Medium.ttf');
+  src: url("../fonts/poppins/Poppins-Medium.ttf");
 }
 
 @font-face {
   font-family: Poppins-Bold;
-  src: url('../fonts/poppins/Poppins-Bold.ttf');
+  src: url("../fonts/poppins/Poppins-Bold.ttf");
 }
 
 @font-face {
   font-family: Poppins-SemiBold;
-  src: url('../fonts/poppins/Poppins-SemiBold.ttf');
+  src: url("../fonts/poppins/Poppins-SemiBold.ttf");
 }
 
 /*//////////////////////////////////////////////////////////////////
@@ -302,7 +302,7 @@ iframe {
 }
 
 .focus-input100::before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   bottom: -2px;
@@ -448,7 +448,7 @@ iframe {
 }
 
 .alert-validate::after {
-  content: '\f06a';
+  content: "\f06a";
   font-family: FontAwesome;
   display: block;
   position: absolute;
@@ -463,7 +463,7 @@ iframe {
   right: 8px;
 }
 
-.alert-validate:hover:before {
+.alert-validate:hover::before {
   visibility: visible;
   opacity: 1;
 }
