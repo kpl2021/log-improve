@@ -18,7 +18,7 @@
 
 (function (window, factory) {
   // universal module definition
-  /*jshint strict: false */ /* globals define, module, require */
+  /* jshint strict: false */ /* globals define, module, require */
   if (typeof define == "function" && define.amd) {
     // AMD
     define("jquery-bridget/jquery-bridget", ["jquery"], function (jQuery) {
@@ -475,10 +475,10 @@
  * MIT license
  */
 
-/*jshint browser: true, strict: true, undef: true, unused: true */
+/* jshint browser: true, strict: true, undef: true, unused: true */
 
 (function (window, factory) {
-  /*global define: false, module: false */
+  /* global define: false, module: false */
   "use strict";
   // universal module definition
   if (typeof define == "function" && define.amd) {
@@ -526,11 +526,11 @@
  * MIT license
  */
 
-/*jshint browser: true, undef: true, unused: true, strict: true */
+/* jshint browser: true, undef: true, unused: true, strict: true */
 
 (function (window, factory) {
   // universal module definition
-  /*jshint strict: false */ /*globals define, module, require */
+  /* jshint strict: false */ /* globals define, module, require */
 
   if (typeof define == "function" && define.amd) {
     // AMD
@@ -2259,7 +2259,7 @@
 
 (function (window, factory) {
   // universal module definition
-  /* jshint strict: false */ /*globals define, module, require */
+  /* jshint strict: false */ /* globals define, module, require */
   if (typeof define == "function" && define.amd) {
     // AMD
     define("isotope-layout/js/item", ["outlayer/outlayer"], factory);
@@ -2328,7 +2328,7 @@
 
 (function (window, factory) {
   // universal module definition
-  /* jshint strict: false */ /*globals define, module, require */
+  /* jshint strict: false */ /* globals define, module, require */
   if (typeof define == "function" && define.amd) {
     // AMD
     define("isotope-layout/js/layout-mode", [
@@ -2481,7 +2481,7 @@
 
 (function (window, factory) {
   // universal module definition
-  /* jshint strict: false */ /*globals define, module, require */
+  /* jshint strict: false */ /* globals define, module, require */
   if (typeof define == "function" && define.amd) {
     // AMD
     define("masonry-layout/masonry", [
@@ -2709,7 +2709,7 @@
 
 (function (window, factory) {
   // universal module definition
-  /* jshint strict: false */ /*globals define, module, require */
+  /* jshint strict: false */ /* globals define, module, require */
   if (typeof define == "function" && define.amd) {
     // AMD
     define("isotope-layout/js/layout-modes/masonry", [
@@ -2777,7 +2777,7 @@
 
 (function (window, factory) {
   // universal module definition
-  /* jshint strict: false */ /*globals define, module, require */
+  /* jshint strict: false */ /* globals define, module, require */
   if (typeof define == "function" && define.amd) {
     // AMD
     define("isotope-layout/js/layout-modes/fit-rows", [
@@ -2839,7 +2839,7 @@
 
 (function (window, factory) {
   // universal module definition
-  /* jshint strict: false */ /*globals define, module, require */
+  /* jshint strict: false */ /* globals define, module, require */
   if (typeof define == "function" && define.amd) {
     // AMD
     define("isotope-layout/js/layout-modes/vertical", [
@@ -2894,7 +2894,7 @@
 
 (function (window, factory) {
   // universal module definition
-  /* jshint strict: false */ /*globals define, module, require */
+  /* jshint strict: false */ /* globals define, module, require */
   if (typeof define == "function" && define.amd) {
     // AMD
     define([

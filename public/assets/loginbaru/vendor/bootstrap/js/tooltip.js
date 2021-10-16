@@ -319,7 +319,7 @@
       },
       {
         key: "_hide",
-        value: function _hide() /*reference, options*/ {
+        value: function _hide() /* reference, options */ {
           // don't hide if it's already hidden
           if (!this._isOpen) {
             return this;

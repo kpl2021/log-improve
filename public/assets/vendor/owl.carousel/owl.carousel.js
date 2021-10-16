@@ -3413,7 +3413,8 @@
       }, this)
     );
 
-    /*$el.on('focusin', function() {
+    /*
+      $el.on('focusin', function() {
 			$(document).off(".carousel");
 
 			$(document).on('keydown.carousel', function(e) {
@@ -3424,7 +3425,7 @@
 					$el.trigger('next.owl')
 				}
 			});
-		});*/
+		}); */
 
     // override public methods of the carousel
     for (override in this._overrides) {

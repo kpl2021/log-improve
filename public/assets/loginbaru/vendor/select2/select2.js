@@ -53,10 +53,10 @@
          * Available via the MIT or new BSD license.
          * see: http://github.com/jrburke/almond for details
          */
-        //Going sloppy to avoid 'use strict' string cost, but strict practices should
-        //be followed.
-        /*jslint sloppy: true */
-        /*global setTimeout: false */
+        // Going sloppy to avoid 'use strict' string cost, but strict practices should
+        // be followed.
+        /* jslint sloppy: true */
+        /* global setTimeout: false */
 
         var requirejs, require, define;
         (function (undef) {
