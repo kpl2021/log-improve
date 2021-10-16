@@ -435,15 +435,6 @@ input:focus {
   right: 30px;
 }
 
-.sidebar .logo p {
-  float: left;
-  font-size: 20px;
-  margin: 10px 10px;
-  color: #ffffff;
-  line-height: 20px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
 .sidebar::after,
 .sidebar::before {
   display: block;
@@ -1574,9 +1565,6 @@ fieldset[disabled] .form-control {
 .checkbox input[type="checkbox"]:checked + label::after {
   font-family: "FontAwesome";
   content: "\f046";
-}
-
-.checkbox input[type="checkbox"]:checked + label::after {
   color: #1dc7ea;
 }
 
