@@ -805,7 +805,7 @@
 ///////////////////////////////////////////////////////////
 */
 .p-t-0 {
-  padding-top: 0px;
+  padding-top: 0;
 }
 
 .p-t-1 {
@@ -1809,7 +1809,7 @@
 }
 
 .p-b-0 {
-  padding-bottom: 0px;
+  padding-bottom: 0;
 }
 
 .p-b-1 {
@@ -2813,7 +2813,7 @@
 }
 
 .p-l-0 {
-  padding-left: 0px;
+  padding-left: 0;
 }
 
 .p-l-1 {
@@ -3817,7 +3817,7 @@
 }
 
 .p-r-0 {
-  padding-right: 0px;
+  padding-right: 0;
 }
 
 .p-r-1 {
@@ -4824,7 +4824,7 @@
 ///////////////////////////////////////////////////////////
 */
 .m-t-0 {
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .m-t-1 {
@@ -5828,7 +5828,7 @@
 }
 
 .m-b-0 {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .m-b-1 {
@@ -6832,7 +6832,7 @@
 }
 
 .m-l-0 {
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .m-l-1 {
@@ -7836,7 +7836,7 @@
 }
 
 .m-r-0 {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .m-r-1 {
@@ -9740,7 +9740,7 @@
 
 .ab-c-t {
   position: absolute;
-  top: 0px;
+  top: 0;
   left: 50%;
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
@@ -9751,7 +9751,7 @@
 
 .ab-c-b {
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   left: 50%;
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
@@ -9762,7 +9762,7 @@
 
 .ab-l-m {
   position: absolute;
-  left: 0px;
+  left: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
@@ -9773,7 +9773,7 @@
 
 .ab-r-m {
   position: absolute;
-  right: 0px;
+  right: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
@@ -9784,24 +9784,24 @@
 
 .ab-t-l {
   position: absolute;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
 }
 
 .ab-t-r {
   position: absolute;
-  right: 0px;
-  top: 0px;
+  right: 0;
+  top: 0;
 }
 
 .ab-b-l {
   position: absolute;
-  left: 0px;
-  bottom: 0px;
+  left: 0;
+  bottom: 0;
 }
 
 .ab-b-r {
   position: absolute;
-  right: 0px;
-  bottom: 0px;
+  right: 0;
+  bottom: 0;
 }

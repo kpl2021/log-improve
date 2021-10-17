@@ -182,7 +182,7 @@
   .nav-open {
     .navbar-collapse,
     .sidebar {
-      @include transform-translate-x(0px);
+      @include transform-translate-x(0);
     }
 
     .navbar .container {
@@ -196,7 +196,7 @@
 
     .menu-on-left {
       .sidebar {
-        @include transform-translate-x(0px);
+        @include transform-translate-x(0);
       }
 
       .main-panel {
@@ -242,7 +242,7 @@
   }
 
   .bar1 {
-    top: 0px;
+    top: 0;
     @include bar-animation($topbar-back);
   }
 
@@ -251,7 +251,7 @@
   }
 
   .bar3 {
-    bottom: 0px;
+    bottom: 0;
     @include bar-animation($bottombar-back);
   }
 

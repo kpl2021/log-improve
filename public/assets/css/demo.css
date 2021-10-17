@@ -8,7 +8,7 @@
   .typo-line .category {
     transform: translateY(-50%);
     top: 50%;
-    left: 0px;
+    left: 0;
     position: absolute;
   }
 }
@@ -23,7 +23,7 @@
 
 .all-icons .font-icon-detail {
   text-align: center;
-  padding: 45px 0px 30px;
+  padding: 45px 0 30px;
   border: 1px solid #e5e5e5;
   border-radius: 6px;
   margin: 15px 0;

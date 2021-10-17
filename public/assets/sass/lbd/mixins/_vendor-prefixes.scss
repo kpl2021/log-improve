@@ -81,7 +81,7 @@
   background: -webkit-gradient(
     radial,
     center center,
-    0px,
+    0,
     center center,
     100%,
     color-stop(0%, $center-color),
@@ -145,7 +145,7 @@
 @mixin topbar-x-rotation() {
   @keyframes topbar-x {
     0% {
-      top: 0px;
+      top: 0;
       transform: rotate(0deg);
     }
 
@@ -165,7 +165,7 @@
 
   @-webkit-keyframes topbar-x {
     0% {
-      top: 0px;
+      top: 0;
       -webkit-transform: rotate(0deg);
     }
 
@@ -185,7 +185,7 @@
 
   @-moz-keyframes topbar-x {
     0% {
-      top: 0px;
+      top: 0;
       -moz-transform: rotate(0deg);
     }
 
@@ -220,7 +220,7 @@
     }
 
     100% {
-      top: 0px;
+      top: 0;
       transform: rotate(0);
     }
   }
@@ -240,7 +240,7 @@
     }
 
     100% {
-      top: 0px;
+      top: 0;
       -webkit-transform: rotate(0);
     }
   }
@@ -260,7 +260,7 @@
     }
 
     100% {
-      top: 0px;
+      top: 0;
       -moz-transform: rotate(0);
     }
   }
@@ -269,7 +269,7 @@
 @mixin bottombar-x-rotation() {
   @keyframes bottombar-x {
     0% {
-      bottom: 0px;
+      bottom: 0;
       transform: rotate(0deg);
     }
 
@@ -289,7 +289,7 @@
 
   @-webkit-keyframes bottombar-x {
     0% {
-      bottom: 0px;
+      bottom: 0;
       -webkit-transform: rotate(0deg);
     }
 
@@ -309,7 +309,7 @@
 
   @-moz-keyframes bottombar-x {
     0% {
-      bottom: 0px;
+      bottom: 0;
       -moz-transform: rotate(0deg);
     }
 
@@ -344,7 +344,7 @@
     }
 
     100% {
-      bottom: 0px;
+      bottom: 0;
       transform: rotate(0);
     }
   }
@@ -364,7 +364,7 @@
     }
 
     100% {
-      bottom: 0px;
+      bottom: 0;
       -webkit-transform: rotate(0);
     }
   }
@@ -384,7 +384,7 @@
     }
 
     100% {
-      bottom: 0px;
+      bottom: 0;
       -moz-transform: rotate(0);
     }
   }

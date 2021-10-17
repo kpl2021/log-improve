@@ -371,7 +371,7 @@ input:focus {
 
 .sidebar .logo .simple-text {
   text-transform: uppercase;
-  padding: 5px 0px;
+  padding: 5px 0;
   display: block;
   font-size: 18px;
   color: #fff;
@@ -1476,8 +1476,8 @@ fieldset[disabled] .form-control {
   height: 20px;
   display: block;
   width: 20px;
-  padding: 0px 0px;
-  margin: 0px 5px;
+  padding: 0 0;
+  margin: 0 5px;
   text-align: center;
 }
 
@@ -1948,7 +1948,7 @@ fieldset[disabled] .form-control {
 
 .navbar .navbar-brand {
   font-weight: 400;
-  margin: 5px 0px;
+  margin: 5px 0;
   padding: 15px 15px;
   font-size: 20px;
 }
@@ -1987,7 +1987,7 @@ fieldset[disabled] .form-control {
   color: #fff;
   font-weight: bold;
   line-height: 18px;
-  top: 0px;
+  top: 0;
   left: 7px;
 }
 
@@ -2329,8 +2329,8 @@ fieldset[disabled] .form-control {
 }
 
 .footer:not(.footer-big) nav > ul a {
-  padding: 10px 0px;
-  margin: 10px 10px 10px 0px;
+  padding: 10px 0;
+  margin: 10px 10px 10px 0;
 }
 
 .dropdown-menu {
@@ -2418,7 +2418,7 @@ fieldset[disabled] .form-control {
 }
 
 .dropdown-with-icons > li > a {
-  padding-left: 0px;
+  padding-left: 0;
   line-height: 28px;
 }
 
@@ -2513,7 +2513,7 @@ fieldset[disabled] .form-control {
   font-size: 14px;
   font-weight: 400;
   color: #9a9a9a;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .card .category i,
@@ -3715,11 +3715,11 @@ fieldset[disabled] .form-control {
 
   .nav-open .navbar-collapse,
   .nav-open .sidebar {
-    -webkit-transform: translate3d(0px, 0, 0);
-    -moz-transform: translate3d(0px, 0, 0);
-    -o-transform: translate3d(0px, 0, 0);
-    -ms-transform: translate3d(0px, 0, 0);
-    transform: translate3d(0px, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
   }
 
   .nav-open .navbar .container {
@@ -3736,11 +3736,11 @@ fieldset[disabled] .form-control {
   }
 
   .nav-open .menu-on-left .sidebar {
-    -webkit-transform: translate3d(0px, 0, 0);
-    -moz-transform: translate3d(0px, 0, 0);
-    -o-transform: translate3d(0px, 0, 0);
-    -ms-transform: translate3d(0px, 0, 0);
-    transform: translate3d(0px, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
   }
 
   .nav-open .menu-on-left .main-panel {
@@ -3790,7 +3790,7 @@ fieldset[disabled] .form-control {
   }
 
   .bar1 {
-    top: 0px;
+    top: 0;
     -webkit-animation: topbar-back 500ms linear 0s;
     -moz-animation: topbar-back 500ms linear 0s;
     animation: topbar-back 500ms 0s;
@@ -3804,7 +3804,7 @@ fieldset[disabled] .form-control {
   }
 
   .bar3 {
-    bottom: 0px;
+    bottom: 0;
     -webkit-animation: bottombar-back 500ms linear 0s;
     -moz-animation: bottombar-back 500ms linear 0s;
     animation: bottombar-back 500ms 0s;
@@ -3839,7 +3839,7 @@ fieldset[disabled] .form-control {
 
   @keyframes topbar-x {
     0% {
-      top: 0px;
+      top: 0;
       transform: rotate(0deg);
     }
 
@@ -3859,7 +3859,7 @@ fieldset[disabled] .form-control {
 
   @-webkit-keyframes topbar-x {
     0% {
-      top: 0px;
+      top: 0;
       -webkit-transform: rotate(0deg);
     }
 
@@ -3879,7 +3879,7 @@ fieldset[disabled] .form-control {
 
   @-moz-keyframes topbar-x {
     0% {
-      top: 0px;
+      top: 0;
       -moz-transform: rotate(0deg);
     }
 
@@ -3912,7 +3912,7 @@ fieldset[disabled] .form-control {
     }
 
     100% {
-      top: 0px;
+      top: 0;
       transform: rotate(0);
     }
   }
@@ -3932,7 +3932,7 @@ fieldset[disabled] .form-control {
     }
 
     100% {
-      top: 0px;
+      top: 0;
       -webkit-transform: rotate(0);
     }
   }
@@ -3952,14 +3952,14 @@ fieldset[disabled] .form-control {
     }
 
     100% {
-      top: 0px;
+      top: 0;
       -moz-transform: rotate(0);
     }
   }
 
   @keyframes bottombar-x {
     0% {
-      bottom: 0px;
+      bottom: 0;
       transform: rotate(0deg);
     }
 
@@ -3979,7 +3979,7 @@ fieldset[disabled] .form-control {
 
   @-webkit-keyframes bottombar-x {
     0% {
-      bottom: 0px;
+      bottom: 0;
       -webkit-transform: rotate(0deg);
     }
 
@@ -3999,7 +3999,7 @@ fieldset[disabled] .form-control {
 
   @-moz-keyframes bottombar-x {
     0% {
-      bottom: 0px;
+      bottom: 0;
       -moz-transform: rotate(0deg);
     }
 
@@ -4032,7 +4032,7 @@ fieldset[disabled] .form-control {
     }
 
     100% {
-      bottom: 0px;
+      bottom: 0;
       transform: rotate(0);
     }
   }
@@ -4052,7 +4052,7 @@ fieldset[disabled] .form-control {
     }
 
     100% {
-      bottom: 0px;
+      bottom: 0;
       -webkit-transform: rotate(0);
     }
   }
@@ -4072,7 +4072,7 @@ fieldset[disabled] .form-control {
     }
 
     100% {
-      bottom: 0px;
+      bottom: 0;
       -moz-transform: rotate(0);
     }
   }
