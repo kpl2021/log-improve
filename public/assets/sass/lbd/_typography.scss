@@ -82,6 +82,15 @@ p {
 h1 small,
 h2 small,
 h3 small,
+h1 .small,
+h2 .small,
+h3 .small {
+  font-size: 60%;
+}
+
+h1 small,
+h2 small,
+h3 small,
 h4 small,
 h5 small,
 h6 small,
@@ -106,15 +115,6 @@ h6 .small,
   color: $dark-gray;
   font-weight: $font-weight-light;
   line-height: $line-height-general;
-}
-
-h1 small,
-h2 small,
-h3 small,
-h1 .small,
-h2 .small,
-h3 .small {
-  font-size: 60%;
 }
 
 h1 .subtitle {

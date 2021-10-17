@@ -12,16 +12,16 @@
   font-size: $font-size-navbar;
   border-radius: 0;
 
-  & > .container .navbar-brand,
-  & > .container-fluid .navbar-brand {
-    margin-left: 0;
-  }
-
   .navbar-brand {
     font-weight: $font-weight-normal;
     margin: $navbar-margin-brand;
     padding: $navbar-padding-brand;
     font-size: $font-size-large-navbar;
+  }
+
+  & > .container .navbar-brand,
+  & > .container-fluid .navbar-brand {
+    margin-left: 0;
   }
 
   .navbar-nav {

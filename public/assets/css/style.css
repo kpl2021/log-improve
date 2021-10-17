@@ -35,6 +35,10 @@ h6 {
   overflow-x: auto;
 }
 
+.mobile-nav-toggle i {
+  color: #222;
+}
+
 /* --------------------------------------------------------------
 # Back to top button
 -------------------------------------------------------------- */
@@ -269,10 +273,6 @@ h6 {
   line-height: 1;
   cursor: pointer;
   text-align: right;
-}
-
-.mobile-nav-toggle i {
-  color: #222;
 }
 
 .mobile-nav {
@@ -588,6 +588,12 @@ section {
     margin-top: 20px;
     margin-left: 220px;
   }
+}
+
+.contact .info p {
+  padding: 0 0 10px 42px;
+  line-height: 28px;
+  font-size: 14px;
 }
 
 /* --------------------------------------------------------------
@@ -1401,12 +1407,6 @@ section {
   color: #3498db;
   float: left;
   line-height: 1;
-}
-
-.contact .info p {
-  padding: 0 0 10px 42px;
-  line-height: 28px;
-  font-size: 14px;
 }
 
 .contact .php-email-form .validate {
