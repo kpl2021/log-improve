@@ -10,7 +10,7 @@
 -------------------------------------------------------------- */
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #444;
 }
 
 a {
@@ -99,7 +99,7 @@ h6 {
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #222222;
+  color: #222;
   text-decoration: none;
 }
 
@@ -139,7 +139,7 @@ h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #555555;
+  color: #555;
   padding: 8px 0 12px 25px;
   transition: 0.3s;
   font-size: 14px;
@@ -196,7 +196,7 @@ h6 {
   padding: 10px 20px;
   font-size: 14px;
   text-transform: none;
-  color: #222222;
+  color: #222;
 }
 
 .nav-menu .drop-down ul a:hover,
@@ -272,7 +272,7 @@ h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #222222;
+  color: #222;
 }
 
 .mobile-nav {
@@ -300,7 +300,7 @@ h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #222222;
+  color: #222;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
@@ -514,7 +514,7 @@ section {
   font-weight: bold;
   text-transform: uppercase;
   position: relative;
-  color: #222222;
+  color: #222;
 }
 
 .section-title h2::before,
@@ -662,7 +662,7 @@ section {
 .counts .content h3 {
   font-weight: 700;
   font-size: 34px;
-  color: #222222;
+  color: #222;
 }
 
 .counts .content p {
@@ -686,7 +686,7 @@ section {
   line-height: 30px;
   display: block;
   font-weight: 700;
-  color: #222222;
+  color: #222;
   margin-left: 50px;
 }
 
@@ -851,7 +851,7 @@ section {
 }
 
 .more-services .card-title a {
-  color: #222222;
+  color: #222;
 }
 
 .more-services .card-text {
@@ -859,7 +859,7 @@ section {
 }
 
 .more-services .read-more a {
-  color: #777777;
+  color: #777;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 12px;
@@ -907,7 +907,7 @@ section {
 }
 
 .features .icon-box h3 a {
-  color: #222222;
+  color: #222;
   transition: ease-in-out 0.3s;
 }
 
@@ -1038,7 +1038,7 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #222222;
+  color: #222;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
   border-radius: 3px;
@@ -1170,7 +1170,7 @@ section {
 
 .team .member .social a {
   transition: color 0.3s;
-  color: #222222;
+  color: #222;
   margin: 0 10px;
   padding-top: 8px;
   display: inline-block;
@@ -1193,21 +1193,21 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
-  color: #222222;
+  color: #222;
 }
 
 .team .member .member-info span {
   display: block;
   font-size: 13px;
   font-weight: 400;
-  color: #aaaaaa;
+  color: #aaa;
 }
 
 .team .member .member-info p {
   font-style: italic;
   font-size: 14px;
   line-height: 26px;
-  color: #777777;
+  color: #777;
 }
 
 .team .member:hover .social {
@@ -1233,7 +1233,7 @@ section {
   margin-top: 15px;
   font-size: 18px;
   font-weight: 600;
-  color: #222222;
+  color: #222;
 }
 
 .pricing .box h4 {
@@ -1259,7 +1259,7 @@ section {
 .pricing .box ul {
   padding: 0;
   list-style: none;
-  color: #222222;
+  color: #222;
   text-align: center;
   line-height: 20px;
   font-size: 14px;
@@ -1323,7 +1323,7 @@ section {
 .faq .faq-item {
   margin: 20px 0;
   padding: 20px 0;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #eee;
 }
 
 .faq .faq-item i {
@@ -1357,7 +1357,7 @@ section {
   line-height: 1;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #222222;
+  color: #222;
 }
 
 .contact .contact-about p {
@@ -1393,7 +1393,7 @@ section {
 }
 
 .contact .info {
-  color: #444444;
+  color: #444;
 }
 
 .contact .info i {
@@ -1631,18 +1631,18 @@ section {
   background: #fff;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 30px 0;
-  color: #222222;
+  color: #222;
   font-size: 14px;
 }
 
 #footer .credits {
   font-size: 13px;
   padding-top: 5px;
-  color: #222222;
+  color: #222;
 }
 
 #footer .footer-links a {
-  color: #222222;
+  color: #222;
   padding-left: 15px;
 }
 

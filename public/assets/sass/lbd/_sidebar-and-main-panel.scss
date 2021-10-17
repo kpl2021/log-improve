@@ -88,7 +88,7 @@
 
     li {
       > a {
-        color: #ffffff;
+        color: #fff;
         margin: 5px 15px;
         opacity: 0.86;
         border-radius: 4px;
@@ -96,7 +96,7 @@
       }
 
       &.active > a {
-        color: #ffffff;
+        color: #fff;
         opacity: 1;
         background: rgba(255, 255, 255, 0.23);
       }
@@ -150,7 +150,7 @@
 
   &:before {
     opacity: 0.33;
-    background: #000000;
+    background: #000;
   }
 
   &:after {
