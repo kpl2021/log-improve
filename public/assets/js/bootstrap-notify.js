@@ -142,7 +142,7 @@
   }
 
   $.extend(Notify.prototype, {
-    init: function () {
+    init() {
       var self = this;
 
       this.buildNotify();
@@ -158,7 +158,7 @@
 
       this.notify = {
         $ele: this.$ele,
-        update: function (command, update) {
+        update(command, update) {
           var commands = {};
           if (typeof command === "string") {
             commands[command] = update;
@@ -223,12 +223,12 @@
             parseInt(self.settings.offset.y);
           self.reposition(posX);
         },
-        close: function () {
+        close() {
           self.close();
         },
       };
     },
-    buildNotify: function () {
+    buildNotify() {
       var content = this.settings.content;
       this.$ele = $(
         String.format(
@@ -254,7 +254,7 @@
         this.$ele.find('[data-notify="progressbar"]').remove();
       }
     },
-    setIcon: function () {
+    setIcon() {
       this.$ele.addClass("alert-with-icon");
 
       if (this.settings.iconType.toLowerCase() === "class") {
@@ -277,7 +277,7 @@
         }
       }
     },
-    styleDismiss: function () {
+    styleDismiss() {
       this.$ele.find('[data-notify="dismiss"]').css({
         position: "absolute",
         right: "10px",
@@ -286,7 +286,7 @@
         zIndex: this.settings.zIndex + 2,
       });
     },
-    styleURL: function () {
+    styleURL() {
       this.$ele.find('[data-notify="url"]').css({
         backgroundImage:
           "url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)",
@@ -298,7 +298,7 @@
         zIndex: this.settings.zIndex + 1,
       });
     },
-    placement: function () {
+    placement() {
       var self = this,
         offsetAmt = this.settings.offset.y,
         css = {
@@ -384,7 +384,7 @@
         }
       }, 600);
     },
-    bind: function () {
+    bind() {
       var self = this;
 
       this.$ele.find('[data-notify="dismiss"]').on("click", function () {
@@ -457,7 +457,7 @@
         }
       }, 600);
     },
-    reposition: function (posX) {
+    reposition(posX) {
       var self = this,
         notifies =
           '[data-notify-position="' +

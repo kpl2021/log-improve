@@ -29,7 +29,7 @@
   Selectpicker.prototype = {
     constructor: Selectpicker,
 
-    init: function (e) {
+    init(e) {
       var _this = this;
       this.$element.hide();
       this.multiple = this.$element.prop("multiple");
@@ -166,7 +166,7 @@
       this.render();
     },
 
-    createDropdown: function () {
+    createDropdown() {
       var drop =
         "<div class='btn-group select'>" +
         "<button class='btn dropdown-toggle clearfix' data-toggle='dropdown'>" +
@@ -181,14 +181,14 @@
       return $(drop);
     },
 
-    createView: function () {
+    createView() {
       var $drop = this.createDropdown();
       var $li = this.createLi();
       $drop.find("ul").append($li);
       return $drop;
     },
 
-    reloadLi: function () {
+    reloadLi() {
       //Remove all children.
       this.destroyLi();
       //Re build
@@ -198,11 +198,11 @@
       this.render();
     },
 
-    destroyLi: function () {
+    destroyLi() {
       this.$newElement.find("li").remove();
     },
 
-    createLi: function () {
+    createLi() {
       var _this = this;
       var _li = [];
       var _liA = [];
@@ -290,7 +290,7 @@
       return $(_liHtml);
     },
 
-    createA: function (test, classes) {
+    createA(test, classes) {
       return (
         '<a tabindex="-1" href="#" class="' +
         classes +
@@ -302,7 +302,7 @@
       );
     },
 
-    render: function () {
+    render() {
       var _this = this;
 
       //Set width of select
@@ -365,7 +365,7 @@
       this.$element.next(".select").find(".filter-option").html(title);
     },
 
-    setSelected: function (index, selected) {
+    setSelected(index, selected) {
       if (selected) {
         this.$newElement.find("li").eq(index).addClass("selected");
       } else {
@@ -373,7 +373,7 @@
       }
     },
 
-    setDisabled: function (index, disabled) {
+    setDisabled(index, disabled) {
       if (disabled) {
         this.$newElement.find("li").eq(index).addClass("disabled");
       } else {
@@ -381,7 +381,7 @@
       }
     },
 
-    checkDisabled: function () {
+    checkDisabled() {
       if (this.$element.is(":disabled")) {
         this.button.addClass("disabled");
         this.button.click(function (e) {
@@ -390,14 +390,14 @@
       }
     },
 
-    checkTabIndex: function () {
+    checkTabIndex() {
       if (this.$element.is("[tabindex]")) {
         var tabindex = this.$element.attr("tabindex");
         this.button.attr("tabindex", tabindex);
       }
     },
 
-    clickListener: function () {
+    clickListener() {
       var _this = this;
 
       $("body").on("touchstart.dropdown", ".dropdown-menu", function (e) {
@@ -479,7 +479,7 @@
       });
     },
 
-    val: function (value) {
+    val(value) {
       if (value != undefined) {
         this.$element.val(value);
 

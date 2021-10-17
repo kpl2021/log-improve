@@ -91,7 +91,7 @@ lbd = {
     navbarMenuVisible: 0,
   },
 
-  checkSidebarImage: function () {
+  checkSidebarImage() {
     $sidebar = $(".sidebar");
     imageSrc = $sidebar.data("image");
 
