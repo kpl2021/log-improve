@@ -1769,7 +1769,7 @@
         p.setRange(range);
       });
     },
-    clearDates: function () {
+    clearDates() {
       $.each(this.pickers, function (i, p) {
         p.clearDates();
       });
@@ -1819,7 +1819,7 @@
 
       delete this.updating;
     },
-    destroy: function () {
+    destroy() {
       $.map(this.pickers, function (p) {
         p.destroy();
       });

@@ -119,7 +119,7 @@ demo = {
         {
           seriesBarDistance: 5,
           axisX: {
-            labelInterpolationFnc: function (value) {
+            labelInterpolationFnc(value) {
               return value[0];
             },
           },

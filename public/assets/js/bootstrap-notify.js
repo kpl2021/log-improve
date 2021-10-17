@@ -425,7 +425,7 @@
         }, self.settings.timer);
       }
     },
-    close: function () {
+    close() {
       var self = this,
         posX = parseInt(this.$ele.css(this.settings.placement.from)),
         hasAnimation = false;
