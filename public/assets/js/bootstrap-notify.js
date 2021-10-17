@@ -1,15 +1,8 @@
 /*
-    
-    
-
-     Creative Tim Modifications
+  Creative Tim Modifications
      
-     Lines: 239, 240 was changed from top: 5px to top: 50% and we added margin-top: -13px. In this way the close button will be aligned vertically 
-     Line:242 - modified when the icon is set, we add the class "alert-with-icon", so there will be enough space for the icon.
-
-
-
-
+  Lines: 239, 240 was changed from top: 5px to top: 50% and we added margin-top: -13px. In this way the close button will be aligned vertically 
+  Line:242 - modified when the icon is set, we add the class "alert-with-icon", so there will be enough space for the icon.
 */
 
 /*
@@ -39,9 +32,9 @@
     element: "body",
     position: null,
     type: "info",
-    allow_dismiss: true,
-    allow_duplicates: true,
-    newest_on_top: false,
+    allowDismiss: true,
+    allowDuplicates: true,
+    newestOnTop: false,
     showProgressbar: false,
     placement: {
       from: "top",
@@ -49,11 +42,11 @@
     },
     offset: 20,
     spacing: 10,
-    z_index: 1031,
+    zIndex: 1031,
     delay: 5000,
     timer: 1000,
-    url_target: "_blank",
-    mouse_over: null,
+    urlTarget: "_blank",
+    mouseOver: null,
     animate: {
       enter: "animated fadeInDown",
       exit: "animated fadeOutUp",
@@ -62,7 +55,7 @@
     onShown: null,
     onClose: null,
     onClosed: null,
-    icon_type: "class",
+    iconType: "class",
     template:
       '<div data-notify="container" class="col-xs-11 col-sm-4 alert alert-{0}" role="alert"><button type="button" aria-hidden="true" class="close" data-notify="dismiss">&times;</button><span data-notify="icon"></span> <span data-notify="title">{1}</span> <span data-notify="message">{2}</span><div class="progress" data-notify="progressbar"><div class="progress-bar progress-bar-{0}" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"></div></div><a href="{3}" target="{4}" data-notify="url"></a></div>',
   };
@@ -124,7 +117,7 @@
     this.settings = $.extend(true, {}, defaults, options);
     this._defaults = defaults;
     if (this.settings.content.target === "-") {
-      this.settings.content.target = this.settings.url_target;
+      this.settings.content.target = this.settings.urlTarget;
     }
     this.animations = {
       start:
@@ -141,8 +134,8 @@
 
     //if duplicate messages are not allowed, then only continue if this new message is not a duplicate of one that it already showing
     if (
-      this.settings.allow_duplicates ||
-      (!this.settings.allow_duplicates && !isDuplicateNotification(this))
+      this.settings.allowDuplicates ||
+      (!this.settings.allowDuplicates && !isDuplicateNotification(this))
     ) {
       this.init();
     }
@@ -187,7 +180,7 @@
                 break;
               case "icon":
                 var $icon = this.$ele.find('[data-notify="icon"]');
-                if (self.settings.icon_type.toLowerCase() === "class") {
+                if (self.settings.iconType.toLowerCase() === "class") {
                   $icon
                     .removeClass(self.settings.content.icon)
                     .addClass(commands[cmd]);
@@ -251,7 +244,7 @@
         "data-notify-position",
         this.settings.placement.from + "-" + this.settings.placement.align
       );
-      if (!this.settings.allow_dismiss) {
+      if (!this.settings.allowDismiss) {
         this.$ele.find('[data-notify="dismiss"]').css("display", "none");
       }
       if (
@@ -264,7 +257,7 @@
     setIcon: function () {
       this.$ele.addClass("alert-with-icon");
 
-      if (this.settings.icon_type.toLowerCase() === "class") {
+      if (this.settings.iconType.toLowerCase() === "class") {
         this.$ele
           .find('[data-notify="icon"]')
           .addClass(this.settings.content.icon);
@@ -290,7 +283,7 @@
         right: "10px",
         top: "50%",
         marginTop: "-13px",
-        zIndex: this.settings.z_index + 2,
+        zIndex: this.settings.zIndex + 2,
       });
     },
     styleURL: function () {
@@ -302,7 +295,7 @@
         position: "absolute",
         top: 0,
         width: "100%",
-        zIndex: this.settings.z_index + 1,
+        zIndex: this.settings.zIndex + 1,
       });
     },
     placement: function () {
@@ -317,7 +310,7 @@
             ? "fixed"
             : "absolute",
           transition: "all .5s ease-in-out",
-          zIndex: this.settings.z_index,
+          zIndex: this.settings.zIndex,
         },
         hasAnimation = false,
         settings = this.settings;
@@ -336,7 +329,7 @@
             parseInt(settings.spacing)
         );
       });
-      if (this.settings.newest_on_top === true) {
+      if (this.settings.newestOnTop === true) {
         offsetAmt = this.settings.offset.y;
       }
       css[this.settings.placement.from] = offsetAmt + "px";
@@ -361,7 +354,7 @@
 
       $(this.settings.element).append(this.$ele);
 
-      if (this.settings.newest_on_top === true) {
+      if (this.settings.newestOnTop === true) {
         offsetAmt =
           parseInt(offsetAmt) +
           parseInt(this.settings.spacing) +
@@ -414,8 +407,8 @@
             parseInt(self.$ele.data("notify-delay")) - self.settings.timer;
           if (
             (self.$ele.data("data-hover") === "false" &&
-              self.settings.mouse_over === "pause") ||
-            self.settings.mouse_over != "pause"
+              self.settings.mouseOver === "pause") ||
+            self.settings.mouseOver != "pause"
           ) {
             var percent =
               ((self.settings.delay - delay) / self.settings.delay) * 100;
@@ -473,7 +466,7 @@
           this.settings.placement.align +
           '"]:not([data-closing="true"])',
         $elements = this.$ele.nextAll(notifies);
-      if (this.settings.newest_on_top === true) {
+      if (this.settings.newestOnTop === true) {
         $elements = this.$ele.prevAll(notifies);
       }
       $elements.each(function () {

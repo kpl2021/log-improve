@@ -57,9 +57,9 @@
   // Activate smooth scroll on page load with hash links in the url
   $(document).ready(function () {
     if (window.location.hash) {
-      var initial_nav = window.location.hash;
-      if ($(initial_nav).length) {
-        var scrollto = $(initial_nav).offset().top - scrolltoOffset;
+      var initialNav = window.location.hash;
+      if ($(initialNav).length) {
+        var scrollto = $(initialNav).offset().top - scrolltoOffset;
         $("html, body").animate(
           {
             scrollTop: scrollto,
@@ -73,10 +73,10 @@
 
   // Mobile Navigation
   if ($(".nav-menu").length) {
-    var $mobile_nav = $(".nav-menu").clone().prop({
+    var $mobileNav = $(".nav-menu").clone().prop({
       class: "mobile-nav d-lg-none",
     });
-    $("body").append($mobile_nav);
+    $("body").append($mobileNav);
     $("body").prepend(
       '<button type="button" class="mobile-nav-toggle d-lg-none"><i class="icofont-navigation-menu"></i></button>'
     );
@@ -206,7 +206,7 @@
       portfolioIsotope.isotope({
         filter: $(this).data("filter"),
       });
-      aos_init();
+      aosInit();
     });
 
     // Initiate venobox (lightbox feature used in portofilo)
@@ -224,7 +224,7 @@
   });
 
   // Init AOS
-  function aos_init() {
+  function aosInit() {
     AOS.init({
       duration: 1000,
       easing: "ease-in-out",
@@ -233,6 +233,6 @@
     });
   }
   $(window).on("load", function () {
-    aos_init();
+    aosInit();
   });
 })(jQuery);

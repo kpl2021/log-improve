@@ -20,10 +20,10 @@ var transparent = true;
 var transparentDemo = true;
 var fixedTop = false;
 
-var navbar_initialized = false;
+var navbarInitialized = false;
 
 $(document).ready(function () {
-  window_width = $(window).width();
+  windowWidth = $(window).width();
 
   // check if there is an image set for the sidebar's background
   lbd.checkSidebarImage();
@@ -51,9 +51,9 @@ $(document).ready(function () {
 $(document).on("click", ".navbar-toggle", function () {
   $toggle = $(this);
 
-  if (lbd.misc.navbar_menu_visible === 1) {
+  if (lbd.misc.navbarMenuVisible === 1) {
     $("html").removeClass("nav-open");
-    lbd.misc.navbar_menu_visible = 0;
+    lbd.misc.navbarMenuVisible = 0;
     $("#bodyClick").remove();
     setTimeout(function () {
       $toggle.removeClass("toggled");
@@ -67,7 +67,7 @@ $(document).on("click", ".navbar-toggle", function () {
       .appendTo("body")
       .click(function () {
         $("html").removeClass("nav-open");
-        lbd.misc.navbar_menu_visible = 0;
+        lbd.misc.navbarMenuVisible = 0;
         setTimeout(function () {
           $toggle.removeClass("toggled");
           $("#bodyClick").remove();
@@ -75,55 +75,55 @@ $(document).on("click", ".navbar-toggle", function () {
       });
 
     $("html").addClass("nav-open");
-    lbd.misc.navbar_menu_visible = 1;
+    lbd.misc.navbarMenuVisible = 1;
   }
 });
 
 $(window).on("resize", function () {
-  if (navbar_initialized) {
+  if (navbarInitialized) {
     lbd.initRightMenu();
-    navbar_initialized = true;
+    navbarInitialized = true;
   }
 });
 
 lbd = {
   misc: {
-    navbar_menu_visible: 0,
+    navbarMenuVisible: 0,
   },
 
   checkSidebarImage: function () {
     $sidebar = $(".sidebar");
-    image_src = $sidebar.data("image");
+    imageSrc = $sidebar.data("image");
 
-    if (image_src !== undefined) {
-      sidebar_container =
+    if (imageSrc !== undefined) {
+      sidebarContainer =
         '<div class="sidebar-background" style="background-image: url(' +
-        image_src +
+        imageSrc +
         ') "/>';
-      $sidebar.append(sidebar_container);
+      $sidebar.append(sidebarContainer);
     }
   },
 
   initRightMenu: debounce(function () {
-    if (!navbar_initialized) {
-      $sidebar_wrapper = $(".sidebar-wrapper");
+    if (!navbarInitialized) {
+      $sidebarWrapper = $(".sidebar-wrapper");
       $navbar = $("nav").find(".navbar-collapse").html();
 
       mobile_menu_content = "";
 
-      nav_content = $navbar;
+      navContent = $navbar;
 
-      nav_content = '<ul class="nav nav-mobile-menu">' + nav_content + "</ul>";
+      navContent = '<ul class="nav nav-mobile-menu">' + navContent + "</ul>";
 
       // navbar_form = $('nav').find('.navbar-form').get(0).outerHTML;
 
-      $sidebar_nav = $sidebar_wrapper.find(" > .nav");
+      $sidebar_nav = $sidebarWrapper.find(" > .nav");
 
       // insert the navbar form before the sidebar list
-      $nav_content = $(nav_content);
+      $navContent = $(navContent);
       // $navbar_form = $(navbar_form);
-      $nav_content.insertBefore($sidebar_nav);
-      // $navbar_form.insertBefore($nav_content);
+      $navContent.insertBefore($sidebar_nav);
+      // $navbar_form.insertBefore($navContent);
 
       $(".sidebar-wrapper .dropdown .dropdown-menu > li > a").click(function (
         event
@@ -131,14 +131,14 @@ lbd = {
         event.stopPropagation();
       });
 
-      mobile_menu_initialized = true;
+      mobileMenuInitialized = true;
     } else {
       if ($(window).width() > 991) {
         // reset all the additions that we made for the sidebar wrapper only if the screen is bigger than 991px
-        // $sidebar_wrapper.find('.navbar-form').remove();
-        $sidebar_wrapper.find(".nav-mobile-menu").remove();
+        // $sidebarWrapper.find('.navbar-form').remove();
+        $sidebarWrapper.find(".nav-mobile-menu").remove();
 
-        mobile_menu_initialized = false;
+        mobileMenuInitialized = false;
       }
     }
   }, 200),

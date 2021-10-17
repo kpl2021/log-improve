@@ -51,7 +51,7 @@
         .outerHeight();
       select.removeClass("open");
       var divHeight = menu.find("li .divider").outerHeight(true);
-      var selectOffset_top = this.$newElement.offset().top;
+      var selectOffsetTop = this.$newElement.offset().top;
       var size = 0;
       var menuHeight = 0;
       var selectHeight = this.$newElement.outerHeight();
@@ -93,19 +93,18 @@
         // Creative Tim Changes: We changed the regular function made in bootstrap-select with this function so the getSize() will not be triggered one million times per second while you scroll.
 
         var getSize = debounce(function () {
-          var selectOffset_top_scroll =
-            selectOffset_top - $(window).scrollTop();
+          var selectOffsetTopScroll = selectOffsetTop - $(window).scrollTop();
           var windowHeight = $(window).innerHeight();
           var menuExtras =
             menuPadding +
             parseInt(menu.css("margin-top")) +
             parseInt(menu.css("margin-bottom")) +
             2;
-          var selectOffset_bot =
-            windowHeight - selectOffset_top_scroll - selectHeight - menuExtras;
-          menuHeight = selectOffset_bot;
+          var selectOffsetBot =
+            windowHeight - selectOffsetTopScroll - selectHeight - menuExtras;
+          menuHeight = selectOffsetBot;
           if (select.hasClass("dropup")) {
-            menuHeight = selectOffset_top_scroll - menuExtras;
+            menuHeight = selectOffsetTopScroll - menuExtras;
           }
           //limit menuHeight to 300px to have a smooth transition with cubic bezier on dropdown
           if (menuHeight >= 300) {
