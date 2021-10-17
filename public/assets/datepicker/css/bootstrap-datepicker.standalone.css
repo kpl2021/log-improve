@@ -111,6 +111,13 @@
   border: none;
 }
 
+.datepicker.dropdown-menu th,
+.datepicker.datepicker-inline th,
+.datepicker.dropdown-menu td,
+.datepicker.datepicker-inline td {
+  padding: 4px 5px;
+}
+
 .table-striped .datepicker table tr td,
 .table-striped .datepicker table tr th {
   background-color: transparent;
@@ -586,13 +593,6 @@
   color: #333333;
   font-size: 13px;
   line-height: 20px;
-}
-
-.datepicker.dropdown-menu th,
-.datepicker.datepicker-inline th,
-.datepicker.dropdown-menu td,
-.datepicker.datepicker-inline td {
-  padding: 4px 5px;
 }
 
 /*# sourceMappingURL=bootstrap-datepicker.standalone.css.map */

@@ -226,6 +226,14 @@ h6 {
   padding-right: 35px;
 }
 
+.mobile-nav .drop-down > a::after {
+  content: "\ea99";
+  font-family: IcoFont;
+  padding-left: 10px;
+  position: absolute;
+  right: 15px;
+}
+
 .nav-menu .drop-down .drop-down > a::after {
   content: "\eaa0";
   font-family: IcoFont;
@@ -322,14 +330,6 @@ h6 {
 .mobile-nav .get-started a:hover {
   background: #57aae1;
   color: #fff;
-}
-
-.mobile-nav .drop-down > a::after {
-  content: "\ea99";
-  font-family: IcoFont;
-  padding-left: 10px;
-  position: absolute;
-  right: 15px;
 }
 
 .mobile-nav .active.drop-down > a::after {
