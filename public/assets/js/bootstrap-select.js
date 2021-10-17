@@ -17,9 +17,9 @@
     );
 
     //If we have no title yet, check the attribute 'title' (this is missed by jq as its not a data-attribute
-    if (this.options.title == null)
+    if (this.options.title == null) {
       this.options.title = this.$element.attr("title");
-
+    }
     //Expose public methods
     this.val = Selectpicker.prototype.val;
     this.render = Selectpicker.prototype.render;
